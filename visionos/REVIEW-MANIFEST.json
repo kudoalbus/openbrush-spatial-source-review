@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "source_repository": "https://github.com/kudoalbus/openbrush-spatial",
+  "source_commit": "cdc7c4a724d284eddb6e64b577a63d0f80c37c98",
+  "review_base": "1685da52912fd980d269b3d25eaeb7831ef2f193",
+  "scope": "Manifest covers every selected visionOS file except this manifest. Build output and local signing are excluded by .gitignore.",
+  "files": {
+    ".gitignore": {
+      "kind": "review-authored",
+      "sha256": "7fa057d5c0871a851ee74e35c0f936dc079d8aad22caf5a8785456d451edec1b"
+    },
+    "App/ArtworkWindow.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "f2aec5cd70637e8c1be3b15893d1c3f6177480fe6d1ef36c1ab564938c562ad5",
+      "source_sha256": "f2aec5cd70637e8c1be3b15893d1c3f6177480fe6d1ef36c1ab564938c562ad5",
+      "source_path": "visionos/App/ArtworkWindow.swift"
+    },
+    "App/GaussianArtworkEntity.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "c1f2e91b360d8c097cf156a9f3eed42c768207e1698ecfd758133d84b7291468",
+      "source_sha256": "c1f2e91b360d8c097cf156a9f3eed42c768207e1698ecfd758133d84b7291468",
+      "source_path": "visionos/App/GaussianArtworkEntity.swift"
+    },
+    "App/OpenBrushAudioInput.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "8925d665a027059a5c57c80dda305c7053fd0815980a5abffebe98da1bf14698",
+      "source_sha256": "8925d665a027059a5c57c80dda305c7053fd0815980a5abffebe98da1bf14698",
+      "source_path": "visionos/App/OpenBrushAudioInput.swift"
+    },
+    "App/OpenBrushMaterialAnimation.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "d2aba097a61b9c4772f0cccf52eb9e1438f568045ba782cc27f0f06500d15002",
+      "source_sha256": "d2aba097a61b9c4772f0cccf52eb9e1438f568045ba782cc27f0f06500d15002",
+      "source_path": "visionos/App/OpenBrushMaterialAnimation.swift"
+    },
+    "App/OpenBrushParticleMesh.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "9024a09030f0f0368bc1ee1da553f56ae7929ff7b3525f57abec06553321a524",
+      "source_sha256": "9024a09030f0f0368bc1ee1da553f56ae7929ff7b3525f57abec06553321a524",
+      "source_path": "visionos/App/OpenBrushParticleMesh.swift"
+    },
+    "App/OpenBrushSpatialApp.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "855af7d394175745bad4899924d3c29fc045a78507eb0fa19c606508779312d2",
+      "source_sha256": "855af7d394175745bad4899924d3c29fc045a78507eb0fa19c606508779312d2",
+      "source_path": "visionos/App/OpenBrushSpatialApp.swift"
+    },
+    "App/OpenBrushWaveMesh.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "d4b18b0ceedc0a490e3960194501efa1fde94bf27479900d0b095a781a1d6b01",
+      "source_sha256": "d4b18b0ceedc0a490e3960194501efa1fde94bf27479900d0b095a781a1d6b01",
+      "source_path": "visionos/App/OpenBrushWaveMesh.swift"
+    },
+    "App/PicoBrushBook.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "49d4829d5dd1847197122ab9200356ad0c30b8525155c5012eaaf931f6a83402",
+      "source_sha256": "49d4829d5dd1847197122ab9200356ad0c30b8525155c5012eaaf931f6a83402",
+      "source_path": "visionos/App/PicoBrushBook.swift"
+    },
+    "App/PicoStudioHUD.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "c22cc72d0c3c13fba990353c3a40fa9bf09dd3cf067cdad0c903e31e0a8a63ce",
+      "source_sha256": "c22cc72d0c3c13fba990353c3a40fa9bf09dd3cf067cdad0c903e31e0a8a63ce",
+      "source_path": "visionos/App/PicoStudioHUD.swift"
+    },
+    "App/Resources/ArtworkControls.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "734141d7b91749d07b604653ba3acb8d4e1b8af783400cf3b42135891786658e",
+      "source_sha256": "734141d7b91749d07b604653ba3acb8d4e1b8af783400cf3b42135891786658e",
+      "source_path": "visionos/App/Resources/ArtworkControls.xcstrings"
+    },
+    "App/Resources/BrushAudio.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "9d1c5ff66e9a130eab96444bbcdaed13ec3048fb6bfd78eb6845e1bdcb2987c4",
+      "source_sha256": "9d1c5ff66e9a130eab96444bbcdaed13ec3048fb6bfd78eb6845e1bdcb2987c4",
+      "source_path": "visionos/App/Resources/BrushAudio.xcstrings"
+    },
+    "App/Resources/BrushNames.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "f992427c94dceec283f6c68537c31da6f508f24ef4fc68ba54ba46a5a2eed5e0",
+      "source_sha256": "f992427c94dceec283f6c68537c31da6f508f24ef4fc68ba54ba46a5a2eed5e0",
+      "source_path": "visionos/App/Resources/BrushNames.xcstrings"
+    },
+    "App/Resources/InfoPlist.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "23fdf8cd8ff0bdd0cd4f9df77daa9addf267a8852041120c7d6c10ea8199a2cf",
+      "source_sha256": "23fdf8cd8ff0bdd0cd4f9df77daa9addf267a8852041120c7d6c10ea8199a2cf",
+      "source_path": "visionos/App/Resources/InfoPlist.xcstrings"
+    },
+    "App/Resources/Localizable.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "f399c84ad97c521c450c081b4f552e29d2cdabaf02d1d863ef1d149a3b4d30b5",
+      "source_sha256": "f399c84ad97c521c450c081b4f552e29d2cdabaf02d1d863ef1d149a3b4d30b5",
+      "source_path": "visionos/App/Resources/Localizable.xcstrings"
+    },
+    "App/Resources/StudioInput.xcstrings": {
+      "kind": "unchanged-text",
+      "sha256": "d8122b36963fed06164f95ed8eadedef5993db0e0df944d698d97b3acec7c758",
+      "source_sha256": "d8122b36963fed06164f95ed8eadedef5993db0e0df944d698d97b3acec7c758",
+      "source_path": "visionos/App/Resources/StudioInput.xcstrings"
+    },
+    "App/SpatialPalette.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "19bfd98abc55e5e10e35b54eec4c899256eba786b5bdd62b39b583da2230fbb2",
+      "source_sha256": "19bfd98abc55e5e10e35b54eec4c899256eba786b5bdd62b39b583da2230fbb2",
+      "source_path": "visionos/App/SpatialPalette.swift"
+    },
+    "App/SpatialStudio.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "389c7944811024080a0664f4aeda249bb7534d05d689765ab64486053cf1775f",
+      "source_sha256": "389c7944811024080a0664f4aeda249bb7534d05d689765ab64486053cf1775f",
+      "source_path": "visionos/App/SpatialStudio.swift"
+    },
+    "App/SpatialStudioRenderer.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "38c777f8c6238c04ec2eb773fbfbb514188d87fb6d5d99d4df4483eae951a62a",
+      "source_sha256": "38c777f8c6238c04ec2eb773fbfbb514188d87fb6d5d99d4df4483eae951a62a",
+      "source_path": "visionos/App/SpatialStudioRenderer.swift"
+    },
+    "App/SpatialStylusInput.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "4970540ef9aa9130f4570de1f4c7c2af5a0b72663c0c9c643983a9cfce18d411",
+      "source_sha256": "4970540ef9aa9130f4570de1f4c7c2af5a0b72663c0c9c643983a9cfce18d411",
+      "source_path": "visionos/App/SpatialStylusInput.swift"
+    },
+    "App/StudioReferenceModel.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "1eaa218e37a9dfd8fa17b8c871c56706b6a5f220971c506905ea3d075d3ea13b",
+      "source_sha256": "1eaa218e37a9dfd8fa17b8c871c56706b6a5f220971c506905ea3d075d3ea13b",
+      "source_path": "visionos/App/StudioReferenceModel.swift"
+    },
+    "App/WorkspaceModel.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "0d7c4ced7258820861357bb63a94b2f8c8954a25d6924cb8f0ca1cfcd55de3a9",
+      "source_sha256": "0d7c4ced7258820861357bb63a94b2f8c8954a25d6924cb8f0ca1cfcd55de3a9",
+      "source_path": "visionos/App/WorkspaceModel.swift"
+    },
+    "App/WorkspaceRenderer.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "01186fa21517e7bc93ca44740fd9dc847e317cfd036cedad9cc9365cc19245c0",
+      "source_sha256": "01186fa21517e7bc93ca44740fd9dc847e317cfd036cedad9cc9365cc19245c0",
+      "source_path": "visionos/App/WorkspaceRenderer.swift"
+    },
+    "NOTICE": {
+      "kind": "review-authored",
+      "sha256": "f58f93b53eb1c30e5dd0a02ccecd7c8b171b1130d9bea4c79e720dcaa0668ca6"
+    },
+    "OpenBrushSpatial.xcodeproj/project.pbxproj": {
+      "kind": "generated-review-build-definition",
+      "sha256": "1811f84157039484b92751ab442e3be34637def223d23acc98c1aa8c0894fa1d",
+      "source_path": "visionos/OpenBrushSpatial.xcodeproj/project.pbxproj"
+    },
+    "OpenBrushSpatial.xcodeproj/xcshareddata/xcschemes/OpenBrushSpatial.xcscheme": {
+      "kind": "generated-review-build-definition",
+      "sha256": "1bea54df27e409f66ed90d68bebf50b4d4eb1823ba38c077067d2d69791bf4b3",
+      "source_path": "visionos/OpenBrushSpatial.xcodeproj/xcshareddata/xcschemes/OpenBrushSpatial.xcscheme"
+    },
+    "Package.swift": {
+      "kind": "unchanged-text",
+      "sha256": "523c9c6a2240d923e220f81a4df5f0a2957e90a83d5dbb1d75dd7668bf63815c",
+      "source_sha256": "523c9c6a2240d923e220f81a4df5f0a2957e90a83d5dbb1d75dd7668bf63815c",
+      "source_path": "visionos/Package.swift"
+    },
+    "README.md": {
+      "kind": "review-adapted",
+      "sha256": "d5e573f3f507fe69c5d1343d683b205433973c12f86fee52a7a4f70231e33e13",
+      "source_sha256": "e0dc94caeb8caa3bfc1f7701d24dfaef6371a62c08dd29a52196baa25641583f",
+      "source_path": "visionos/README.md"
+    },
+    "ReviewResources/OPENBRUSH-LICENSE": {
+      "kind": "committed-reference-text",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_path": "pico/app/src/main/assets/brush-library/OPENBRUSH-LICENSE"
+    },
+    "ReviewResources/brush-geometry.json": {
+      "kind": "committed-reference-text",
+      "sha256": "406d0bfba8071f8d12eb2af391bd4e1524e26e38cfe9e2220937672c0442d7b1",
+      "source_path": "pico/app/src/main/assets/brush-geometry.json"
+    },
+    "ReviewResources/brush-library/catalog.json": {
+      "kind": "committed-reference-text",
+      "sha256": "ec86665ec8b6fe081d449aa849a2bda09d82da6c2499e546d49708dd260604e8",
+      "source_path": "pico/app/src/main/assets/brush-library/catalog.json"
+    },
+    "ReviewResources/brush-rendering.json": {
+      "kind": "committed-reference-text",
+      "sha256": "63969f7dc0357970673374c56603504e72443c26c2580c062a46c2fd2c0b0505",
+      "source_path": "pico/app/src/main/assets/brush-rendering.json"
+    },
+    "ReviewResources/brush-textures/catalog.json": {
+      "kind": "committed-reference-text",
+      "sha256": "6ec6bb62bbc3f6ab0187985f0f9e3ebebb08601b10d1da211e8c7e12807b0aec",
+      "source_path": "pico/app/src/main/assets/brush-textures/catalog.json"
+    },
+    "ReviewResources/palette-targets.json": {
+      "kind": "committed-reference-text",
+      "sha256": "4d1312b839dac624ccd97f521fc23a03d2e974348f2531b7edc07aa4ce9f7d7d",
+      "source_path": "pico/app/src/main/assets/palette-targets.json"
+    },
+    "ReviewResources/workspace-v3.json": {
+      "kind": "committed-reference-text",
+      "sha256": "e5e2738fc0b30056b774921bc4d6eb33185d34d29d314ce7fce80329fa14cbf3",
+      "source_path": "fixtures/workspace-v3.json"
+    },
+    "Signing.xcconfig": {
+      "kind": "unchanged-text",
+      "sha256": "89829eae52129b9666d93b2212537e2f979c1f519d03f878c007a1f79c4bd9c3",
+      "source_sha256": "89829eae52129b9666d93b2212537e2f979c1f519d03f878c007a1f79c4bd9c3",
+      "source_path": "visionos/Signing.xcconfig"
+    },
+    "Sources/DrawingCore/DrawingCodec.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "24a7ea5b01ba987b7711524ef125de093194e54004ac1a2305db737e83a383e1",
+      "source_sha256": "24a7ea5b01ba987b7711524ef125de093194e54004ac1a2305db737e83a383e1",
+      "source_path": "visionos/Sources/DrawingCore/DrawingCodec.swift"
+    },
+    "Sources/DrawingCore/DrawingModel.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "d0208b5cec6608ff1c93dd6d863feb4585c68a5d01cec28a679ee700dc9432ef",
+      "source_sha256": "d0208b5cec6608ff1c93dd6d863feb4585c68a5d01cec28a679ee700dc9432ef",
+      "source_path": "visionos/Sources/DrawingCore/DrawingModel.swift"
+    },
+    "Sources/DrawingCore/GaussianArtwork.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "a9dee4698af70df3d41056ae2ab20cb0fa86eee7ba29deb1a23030d475833d31",
+      "source_sha256": "a9dee4698af70df3d41056ae2ab20cb0fa86eee7ba29deb1a23030d475833d31",
+      "source_path": "visionos/Sources/DrawingCore/GaussianArtwork.swift"
+    },
+    "Sources/DrawingCore/OpenBrushArcSurface.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "c759a914672a4ec8e8c99874c0b03956b5844684631f03757fe71b493d53c6ed",
+      "source_sha256": "c759a914672a4ec8e8c99874c0b03956b5844684631f03757fe71b493d53c6ed",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushArcSurface.swift"
+    },
+    "Sources/DrawingCore/OpenBrushCatalog.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "901f4121e7e9f8dbc850b157d424cb7e7547f7b85c2a4c33fd0226a36f71f952",
+      "source_sha256": "901f4121e7e9f8dbc850b157d424cb7e7547f7b85c2a4c33fd0226a36f71f952",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushCatalog.swift"
+    },
+    "Sources/DrawingCore/OpenBrushHull.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "3d6b8f223e5d0fa415f9c2cfcdd4384902898925b3c9db87d0f217600b6a9f76",
+      "source_sha256": "3d6b8f223e5d0fa415f9c2cfcdd4384902898925b3c9db87d0f217600b6a9f76",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushHull.swift"
+    },
+    "Sources/DrawingCore/OpenBrushMaterialStyle.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "d4827e7bb0479093cf4a7eeb5bf1a7742c5437b521d033cf9b6f443f98af20b9",
+      "source_sha256": "d4827e7bb0479093cf4a7eeb5bf1a7742c5437b521d033cf9b6f443f98af20b9",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushMaterialStyle.swift"
+    },
+    "Sources/DrawingCore/OpenBrushMembrane.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "2cf17480c1177a930166b149df304f747df5d905069f913c52064c18751fab28",
+      "source_sha256": "2cf17480c1177a930166b149df304f747df5d905069f913c52064c18751fab28",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushMembrane.swift"
+    },
+    "Sources/DrawingCore/OpenBrushMesh.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "d0598ac521cadbf5e1e73206b706b6d883bb8c88d549cc5914ef1872cdad0100",
+      "source_sha256": "d0598ac521cadbf5e1e73206b706b6d883bb8c88d549cc5914ef1872cdad0100",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushMesh.swift"
+    },
+    "Sources/DrawingCore/OpenBrushParticle.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "6be0f84edb19b2d6427b23c9ed1d2bb068330d6c74a123dcd677331d26bae7d3",
+      "source_sha256": "6be0f84edb19b2d6427b23c9ed1d2bb068330d6c74a123dcd677331d26bae7d3",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushParticle.swift"
+    },
+    "Sources/DrawingCore/OpenBrushStamp.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "b373fe67320c971c4c8b315e3487cbbfe64fa3ba2711a5f45984fb62daa1c47d",
+      "source_sha256": "b373fe67320c971c4c8b315e3487cbbfe64fa3ba2711a5f45984fb62daa1c47d",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushStamp.swift"
+    },
+    "Sources/DrawingCore/OpenBrushWave.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "a5072421c77ecb3d6470a0ce7c741bd54b6c976100a0181124c9a83785fb7c14",
+      "source_sha256": "a5072421c77ecb3d6470a0ce7c741bd54b6c976100a0181124c9a83785fb7c14",
+      "source_path": "visionos/Sources/DrawingCore/OpenBrushWave.swift"
+    },
+    "Sources/DrawingCore/PalmMenuPose.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "b2d3556771d27b8d50a3b9e51aa45de9acce81ce581ce025fb4bdc278ce9b469",
+      "source_sha256": "b2d3556771d27b8d50a3b9e51aa45de9acce81ce581ce025fb4bdc278ce9b469",
+      "source_path": "visionos/Sources/DrawingCore/PalmMenuPose.swift"
+    },
+    "Sources/DrawingCore/PicoHandPose.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "87b378e3905e6192d3fad2c0d615b486914fcbb015fc9d550ba6c1aa416050ed",
+      "source_sha256": "87b378e3905e6192d3fad2c0d615b486914fcbb015fc9d550ba6c1aa416050ed",
+      "source_path": "visionos/Sources/DrawingCore/PicoHandPose.swift"
+    },
+    "Sources/DrawingCore/SpatialStrokeCapture.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "ffd455375db05c2895cdf9fc28d53b2e82e1a168f724aaf3b3b107586cf36b0d",
+      "source_sha256": "ffd455375db05c2895cdf9fc28d53b2e82e1a168f724aaf3b3b107586cf36b0d",
+      "source_path": "visionos/Sources/DrawingCore/SpatialStrokeCapture.swift"
+    },
+    "Sources/DrawingCore/SpatialStrokeEdit.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "63aac9559bbccfffb40f2f60af080b15aabefd882de53667fb3d7acb8576d161",
+      "source_sha256": "63aac9559bbccfffb40f2f60af080b15aabefd882de53667fb3d7acb8576d161",
+      "source_path": "visionos/Sources/DrawingCore/SpatialStrokeEdit.swift"
+    },
+    "Sources/DrawingCore/StrokeEditing.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "bcbcac53a86351708d02a6915527a3d8173ab1dba1f0812dde7fd3422612c6d6",
+      "source_sha256": "bcbcac53a86351708d02a6915527a3d8173ab1dba1f0812dde7fd3422612c6d6",
+      "source_path": "visionos/Sources/DrawingCore/StrokeEditing.swift"
+    },
+    "Sources/DrawingCore/StrokeMesh.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "e1d5afbc5392220d8caa4a883c2cae781f43a903219cf176af69dab0b6e7ef07",
+      "source_sha256": "e1d5afbc5392220d8caa4a883c2cae781f43a903219cf176af69dab0b6e7ef07",
+      "source_path": "visionos/Sources/DrawingCore/StrokeMesh.swift"
+    },
+    "Sources/DrawingCore/TiltArchive.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "24f98486ba648043dddaffe62650c4b5e79e82ddc49953310236095fc653757b",
+      "source_sha256": "24f98486ba648043dddaffe62650c4b5e79e82ddc49953310236095fc653757b",
+      "source_path": "visionos/Sources/DrawingCore/TiltArchive.swift"
+    },
+    "Sources/DrawingCore/TiltImporter.swift": {
+      "kind": "unchanged-runtime",
+      "sha256": "bfed5aa6027c1c906a7a5591567e5f042a0922808947bdad27bad986d7e39967",
+      "source_sha256": "bfed5aa6027c1c906a7a5591567e5f042a0922808947bdad27bad986d7e39967",
+      "source_path": "visionos/Sources/DrawingCore/TiltImporter.swift"
+    },
+    "Tests/DrawingCoreTests/DrawingCoreTests.swift": {
+      "kind": "review-adapted",
+      "sha256": "d2106c8e91a3eba676bb18f216293b399f32256e95297e51f9e0d63ed38f47ef",
+      "source_sha256": "42e2d97842442e5bb4c174a048fefb8f984fca194d57c027c7b2f61f77422a61",
+      "source_path": "visionos/Tests/DrawingCoreTests/DrawingCoreTests.swift"
+    },
+    "Tests/DrawingCoreTests/GaussianArtworkTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "6e7fd79e54d283d91a1e2a9b4fa9cf992f577519124ec281f1c3186f32195e62",
+      "source_sha256": "6e7fd79e54d283d91a1e2a9b4fa9cf992f577519124ec281f1c3186f32195e62",
+      "source_path": "visionos/Tests/DrawingCoreTests/GaussianArtworkTests.swift"
+    },
+    "Tests/DrawingCoreTests/OpenBrushTests.swift": {
+      "kind": "review-adapted",
+      "sha256": "4fbb400048a4a59e5cb670109f3dded7b621ae00f59f95cc0c94c486aa2ea5bb",
+      "source_sha256": "05268145b3fedf7a031493db9d23e8ea69ed824eec35acf3287e6028564ac32d",
+      "source_path": "visionos/Tests/DrawingCoreTests/OpenBrushTests.swift"
+    },
+    "Tests/DrawingCoreTests/PalmMenuPoseTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "a373c07ee075a99763e8d4435a1230e64ec0d51f1926e2fe3d30aacbd1f1b6e3",
+      "source_sha256": "a373c07ee075a99763e8d4435a1230e64ec0d51f1926e2fe3d30aacbd1f1b6e3",
+      "source_path": "visionos/Tests/DrawingCoreTests/PalmMenuPoseTests.swift"
+    },
+    "Tests/DrawingCoreTests/PicoHandPoseTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "04abe765d800e863fb8edb713da33d2a622f5d683b23707e2878dec84641b50f",
+      "source_sha256": "04abe765d800e863fb8edb713da33d2a622f5d683b23707e2878dec84641b50f",
+      "source_path": "visionos/Tests/DrawingCoreTests/PicoHandPoseTests.swift"
+    },
+    "Tests/DrawingCoreTests/SpatialStrokeCaptureTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "717f32b964973ecd62bc0de060bfb1f85a112aab3d010fdf358204c0ffa9a2af",
+      "source_sha256": "717f32b964973ecd62bc0de060bfb1f85a112aab3d010fdf358204c0ffa9a2af",
+      "source_path": "visionos/Tests/DrawingCoreTests/SpatialStrokeCaptureTests.swift"
+    },
+    "Tests/DrawingCoreTests/SpatialStrokeEditTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "ad51c5f1bc489c6df00df1bdfa6f1f956a937d14b503fc78418617643aec92aa",
+      "source_sha256": "ad51c5f1bc489c6df00df1bdfa6f1f956a937d14b503fc78418617643aec92aa",
+      "source_path": "visionos/Tests/DrawingCoreTests/SpatialStrokeEditTests.swift"
+    },
+    "Tests/DrawingCoreTests/StrokeRenderScalingTests.swift": {
+      "kind": "unchanged-text",
+      "sha256": "3016e8812bcfb004ea6e89f0786d6de97b4acd54be5a43dce324f6d11a5e1ac0",
+      "source_sha256": "3016e8812bcfb004ea6e89f0786d6de97b4acd54be5a43dce324f6d11a5e1ac0",
+      "source_path": "visionos/Tests/DrawingCoreTests/StrokeRenderScalingTests.swift"
+    },
+    "Tests/DrawingCoreTests/SyntheticTilt.swift": {
+      "kind": "review-authored",
+      "sha256": "1d14bbe8effa1b223ef51910e29882beac12b78926a2f48fcc26e05dc17a0956"
+    },
+    "Tests/DrawingCoreTests/TiltImporterTests.swift": {
+      "kind": "review-adapted",
+      "sha256": "501437f36d2e34db4401f8c7758e0f465adb93b3a8aadb7499deb918fa335ca0",
+      "source_sha256": "0eaec0affe91728b99004c7ab9658cbf95a2fd885c052785e474ec94f60638b0",
+      "source_path": "visionos/Tests/DrawingCoreTests/TiltImporterTests.swift"
+    },
+    "scripts/compare-v3.py": {
+      "kind": "unchanged-text",
+      "sha256": "5ae15b7896251737fbf50084b1ad00e05dcd885738d3cc54af5c3ff113b1eb40",
+      "source_sha256": "5ae15b7896251737fbf50084b1ad00e05dcd885738d3cc54af5c3ff113b1eb40",
+      "source_path": "visionos/scripts/compare-v3.py"
+    },
+    "scripts/generate-project.py": {
+      "kind": "review-adapted",
+      "sha256": "f0d3b9f11a0109926f2752c2c2553897e6ac4219ff233473c99bc7c9486f29d2",
+      "source_sha256": "ddbeed40469c6cc13dc05a59208aec18be3301158c6f52c996c067a873cf4ca7",
+      "source_path": "visionos/scripts/generate-project.py"
+    },
+    "scripts/verify-interop.py": {
+      "kind": "review-adapted",
+      "sha256": "fef7b09c7d8eda29e169b941b4c8cba89e174634b5835950eec205f333e6dfe1",
+      "source_sha256": "31383d51484947ce0350c6feb4fc02883c0aa7d9d0ce59f015a3c6d4f275a8dd",
+      "source_path": "visionos/scripts/verify-interop.py"
+    },
+    "scripts/verify-review.py": {
+      "kind": "review-authored",
+      "sha256": "82bf55ae1131010f5ecb8d617a2f891c400f6234f7b5930b1a65c1477f254db2"
+    },
+    "scripts/verify-simulator.sh": {
+      "kind": "review-adapted",
+      "sha256": "22b0fe45a6dadefef7cea72b43e962fbe84c2285e45260218fc4612fb3bccf60",
+      "source_sha256": "f2bf0e30f685c115a22767f06199cea018899ffff2416a0965c585ed9e2f6551",
+      "source_path": "visionos/scripts/verify-simulator.sh"
+    }
+  }
+}

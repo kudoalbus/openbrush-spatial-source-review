@@ -25,3 +25,11 @@ The production algorithms follow the reviewed Kotlin sources. The surface genera
 - **Source edition, Windows / JDK 17, 2026-11-19.** The desktop suite passed 119 tests in 19 classes, with zero errors, failures or skips. It covers gesture replay, partial edits, undo/redo, document round trips, brush geometry and parameters, lighting metadata, GLB handling, Gaussian data and capture protocol logic.
 - **Private application baseline.** A separate Android Kotlin compile and 164 JVM tests passed at the review base. Earlier PICO emulator evidence includes two independent TILT windows, a 422-triangle hull/membrane model and a 96-triangle shaped-section model. Those results used the full private assets and SDK.
 - **Hardware and platform scope.** Headset tracking, real bimanual movement, microphone-driven brush appearance, camera passthrough and large-scene performance still need device acceptance. The suite does not measure visual equivalence with Unity. visionOS and device-to-device editing are outside this PICO edition.
+
+## visionOS M05 companion
+
+The native Apple implementation and independent Swift suite are now included under [visionos/](../visionos/README.md). The [visionOS handoff](VISIONOS.md) covers the selected runtime source, interval editing, swept contact, v3 interchange, brush geometry, hand-menu pose and Unity porting boundaries. Its checks use the text-only review resources and synthetic test input. PICO source, test classes and the desktop Gradle selection retain the baseline content.
+
+## Shared review entry
+
+Use the [developer guide](REVIEW-GUIDE.md) to compare platform source and tests. The [workspace contract](WORKSPACE-FORMAT.md) describes the existing interchange schema. [Compatibility](COMPATIBILITY.md) and the [M06 report](STRUCTURE-REVIEW.md) distinguish the platform build scopes and this round's actual checks.

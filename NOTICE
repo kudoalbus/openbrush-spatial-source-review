@@ -1,0 +1,28 @@
+OpenBrush Spatial source review
+
+Project-authored Kotlin and Swift contributions, review build definitions,
+synthetic tests and documentation are offered under the root Apache License 2.0.
+Existing upstream rights and attribution apply to upstream-derived portions.
+
+Open Brush and Tilt Brush
+Copyright Google Inc. / Tilt Brush Authors as in the upstream package.
+Environment lighting reference: Copyright 2020 The Tilt Brush Authors / Icosa
+Foundation contributors, Apache License 2.0.
+Reference source: Open Brush 2.32.0, commit
+6996c28dabda6ce7ff2b4728767ff99484445162
+https://github.com/icosa-foundation/open-brush
+
+Open Brush Toolkit
+TILT format reference parser: Copyright 2016 Google Inc. All rights reserved.
+Texture descriptor records refer to the Open Brush Toolkit v24.0.0 package.
+https://github.com/icosa-foundation/open-brush-toolkit
+
+The existing pico/NOTICE and visionos/NOTICE retain component-specific credits.
+The root LICENSE, pico/OPENBRUSH-LICENSE,
+pico/app/src/main/assets/brush-library/OPENBRUSH-LICENSE and
+visionos/ReviewResources/OPENBRUSH-LICENSE carry the accompanying Apache text.
+
+Models, texture images, atlases, actual paintings, screenshots, SDK binaries and
+signing material are excluded from this source-review tree. This notice grants
+no additional license to excluded resources or third-party trademarks.
+Component inventory: docs/ASSETS.md.

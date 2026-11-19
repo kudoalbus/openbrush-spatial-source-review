@@ -1,0 +1,1613 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "brush": "Bubbles",
+      "aliases": [
+        "Bubbles"
+      ],
+      "guid": "89d104cd-d012-426b-b5b3-bbaee63ac43c",
+      "slot": "MainTex",
+      "asset": "brush-textures/b138873ca78ac1723e8adc16ec0623ebf1b1eeb313c8ee266d0845d40dfc4329.png",
+      "size": 132651,
+      "sha256": "b138873ca78ac1723e8adc16ec0623ebf1b1eeb313c8ee266d0845d40dfc4329",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Bubbles/maintexture.png"
+    },
+    {
+      "brush": "BubbleWand",
+      "aliases": [
+        "BubbleWand",
+        "BubbleWand_16"
+      ],
+      "guid": "EBA3F993-F9A1-4D35-B84E-BB08F48981A4",
+      "slot": "MainTex",
+      "asset": "brush-textures/91a94b50cfb3bdd915a9cd2f98a9891f648cdec858da7883ea2d42409a19fc75.png",
+      "size": 58436,
+      "sha256": "91a94b50cfb3bdd915a9cd2f98a9891f648cdec858da7883ea2d42409a19fc75",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/BubbleWand/main.png"
+    },
+    {
+      "brush": "CelVinyl",
+      "aliases": [
+        "CelVinyl",
+        "CelVinyl_16"
+      ],
+      "guid": "700f3aa8-9a7c-2384-8b8a-ea028905dd8c",
+      "slot": "MainTex",
+      "asset": "brush-textures/5b4bc3790cdd934a0f66d086a887899aa7e81ab50c9b80a8f0667986d2cd26fa.png",
+      "size": 32983,
+      "sha256": "5b4bc3790cdd934a0f66d086a887899aa7e81ab50c9b80a8f0667986d2cd26fa",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/CelVinyl/main.png"
+    },
+    {
+      "brush": "Charcoal",
+      "aliases": [
+        "Charcoal",
+        "Charcoal_16"
+      ],
+      "guid": "fde6e778-0f7a-e584-38d6-89d44cee59f6",
+      "slot": "BumpMap",
+      "asset": "brush-textures/ffb8b0d8798a715f754970647289cc967e7ac65ab6bff72ae1ff5eb9a974ed65.png",
+      "size": 138897,
+      "sha256": "ffb8b0d8798a715f754970647289cc967e7ac65ab6bff72ae1ff5eb9a974ed65",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Charcoal/normal.png"
+    },
+    {
+      "brush": "Charcoal",
+      "aliases": [
+        "Charcoal",
+        "Charcoal_16"
+      ],
+      "guid": "fde6e778-0f7a-e584-38d6-89d44cee59f6",
+      "slot": "MainTex",
+      "asset": "brush-textures/821ee72f1ea6b622293c9e09c1c9aa5ae6c0e1aef8d793ac120476e574e50402.png",
+      "size": 125028,
+      "sha256": "821ee72f1ea6b622293c9e09c1c9aa5ae6c0e1aef8d793ac120476e574e50402",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Charcoal/main.png"
+    },
+    {
+      "brush": "CoarseBristles",
+      "aliases": [
+        "CoarseBristles",
+        "CoarseBristles_15"
+      ],
+      "guid": "1161af82-50cf-47db-9706-0c3576d43c43",
+      "slot": "MainTex",
+      "asset": "brush-textures/3e5be0f9d531a97a7f03fd12b75feb4de86f57f5197a0c0684bbba6e34b1a681.png",
+      "size": 724616,
+      "sha256": "3e5be0f9d531a97a7f03fd12b75feb4de86f57f5197a0c0684bbba6e34b1a681",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/CoarseBristles/leaves.png"
+    },
+    {
+      "brush": "CoarseBristles",
+      "aliases": [
+        "CoarseBristles",
+        "CoarseBristles_0"
+      ],
+      "guid": "79168f10-6961-464a-8be1-57ed364c5600",
+      "slot": "MainTex",
+      "asset": "brush-textures/3e5be0f9d531a97a7f03fd12b75feb4de86f57f5197a0c0684bbba6e34b1a681.png",
+      "size": 724616,
+      "sha256": "3e5be0f9d531a97a7f03fd12b75feb4de86f57f5197a0c0684bbba6e34b1a681",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/CoarseBristles/leaves.png"
+    },
+    {
+      "brush": "Comet",
+      "aliases": [
+        "Comet",
+        "Comet_16"
+      ],
+      "guid": "1caa6d7d-f015-3f54-3a4b-8b5354d39f81",
+      "slot": "AlphaMask",
+      "asset": "brush-textures/efcf85a9c0aad21ce946fb5e9c0496c309d8ecc9eae62f5a49326047843761d2.png",
+      "size": 1033,
+      "sha256": "efcf85a9c0aad21ce946fb5e9c0496c309d8ecc9eae62f5a49326047843761d2",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Comet/gradient.png"
+    },
+    {
+      "brush": "Comet",
+      "aliases": [
+        "Comet",
+        "Comet_16"
+      ],
+      "guid": "1caa6d7d-f015-3f54-3a4b-8b5354d39f81",
+      "slot": "MainTex",
+      "asset": "brush-textures/c503eade4aa4aad07ce018fbacf9e99ef883ebd4981829bde27c2b27bd70e14a.png",
+      "size": 80899,
+      "sha256": "c503eade4aa4aad07ce018fbacf9e99ef883ebd4981829bde27c2b27bd70e14a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Comet/main.png"
+    },
+    {
+      "brush": "DanceFloor",
+      "aliases": [
+        "DanceFloor",
+        "DanceFloor_16"
+      ],
+      "guid": "6a1cf9f9-032c-45ec-311e-a6680bee32e9",
+      "slot": "MainTex",
+      "asset": "brush-textures/282b7d90d946c76164bc3838b9b7bb86400af5bd3ece6f2a17683f50e1981975.png",
+      "size": 26563,
+      "sha256": "282b7d90d946c76164bc3838b9b7bb86400af5bd3ece6f2a17683f50e1981975",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DanceFloor/maintexture.png"
+    },
+    {
+      "brush": "DiamondHull",
+      "aliases": [
+        "DiamondHull",
+        "DiamondHull_16"
+      ],
+      "guid": "c8313697-2563-47fc-832e-290f4c04b901",
+      "slot": "MainTex",
+      "asset": "brush-textures/d766a612c22e233c6f272f31e42a3f0685400ba8593093c1124b03cca66e9126.png",
+      "size": 64476,
+      "sha256": "d766a612c22e233c6f272f31e42a3f0685400ba8593093c1124b03cca66e9126",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DiamondHull/main.png"
+    },
+    {
+      "brush": "DotMarker",
+      "aliases": [
+        "DotMarker"
+      ],
+      "guid": "d1d991f2-e7a0-4cf1-b328-f57e915e6260",
+      "slot": "MainTex",
+      "asset": "brush-textures/6f86c76d44c6108ef77b0a4b29b1ceb035b9f9390c757ae13959a925acd7ad52.png",
+      "size": 19850,
+      "sha256": "6f86c76d44c6108ef77b0a4b29b1ceb035b9f9390c757ae13959a925acd7ad52",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DotMarker/maintexture.png"
+    },
+    {
+      "brush": "Dots",
+      "aliases": [
+        "Dots"
+      ],
+      "guid": "6a1cf9f9-032c-45ec-9b1d-a6680bee30f7",
+      "slot": "MainTex",
+      "asset": "brush-textures/438b3d436f6ecf04e76d6675418ba37794eab91d6fdbe21abe67d35cb4c88097.png",
+      "size": 88618,
+      "sha256": "438b3d436f6ecf04e76d6675418ba37794eab91d6fdbe21abe67d35cb4c88097",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Dots/maintexture.png"
+    },
+    {
+      "brush": "DoubleFlat",
+      "aliases": [
+        "DoubleFlat",
+        "DoubleFlat_16"
+      ],
+      "guid": "f4a0550c-332a-4e1a-9793-b71508f4a454",
+      "slot": "MainTex",
+      "asset": "brush-textures/010932032cf95afea1f3bf7de09cec2ed22ec123e2cea4b4b107ec2be1163e3c.png",
+      "size": 1006,
+      "sha256": "010932032cf95afea1f3bf7de09cec2ed22ec123e2cea4b4b107ec2be1163e3c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/DoubleFlat/maintexture.png"
+    },
+    {
+      "brush": "Drafting",
+      "aliases": [
+        "Drafting",
+        "Drafting_16"
+      ],
+      "guid": "492b36ff-b337-436a-ba5f-1e87ee86747e",
+      "slot": "MainTex",
+      "asset": "brush-textures/af25ce38bda4ec63d2f805434cf8bd3c1a96bb4c74740b4d65478bf19a830d97.png",
+      "size": 73934,
+      "sha256": "af25ce38bda4ec63d2f805434cf8bd3c1a96bb4c74740b4d65478bf19a830d97",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Drafting/maintexture.png"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "725f4c6a-6427-6524-29ab-da371924adab",
+      "slot": "BumpMap",
+      "asset": "brush-textures/c2d24916cf58e882c80aa86e3949a294c82d16afb163d624242470bee5233ddc.jpg",
+      "size": 165705,
+      "sha256": "c2d24916cf58e882c80aa86e3949a294c82d16afb163d624242470bee5233ddc",
+      "mimeType": "image/jpeg",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/DryBrush/normal.jpg"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "725f4c6a-6427-6524-29ab-da371924adab",
+      "slot": "MainTex",
+      "asset": "brush-textures/e2a6afa457a183813eca6a539e920dad812464792fd2460a848ea714a1959c3f.png",
+      "size": 559391,
+      "sha256": "e2a6afa457a183813eca6a539e920dad812464792fd2460a848ea714a1959c3f",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/DryBrush/main.png"
+    },
+    {
+      "brush": "DuctTape",
+      "aliases": [
+        "DuctTape",
+        "DuctTape_15"
+      ],
+      "guid": "d0262945-853c-4481-9cbd-88586bed93cb",
+      "slot": "BumpMap",
+      "asset": "brush-textures/0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3.png",
+      "size": 738831,
+      "sha256": "0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/normal.png"
+    },
+    {
+      "brush": "DuctTape",
+      "aliases": [
+        "DuctTape",
+        "DuctTape_15"
+      ],
+      "guid": "d0262945-853c-4481-9cbd-88586bed93cb",
+      "slot": "MainTex",
+      "asset": "brush-textures/15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a.png",
+      "size": 553098,
+      "sha256": "15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/main.png"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "84d5bbb2-6634-8434-f8a7-681b576b4664",
+      "slot": "BumpMap",
+      "asset": "brush-textures/0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3.png",
+      "size": 738831,
+      "sha256": "0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/normal.png"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "84d5bbb2-6634-8434-f8a7-681b576b4664",
+      "slot": "MainTex",
+      "asset": "brush-textures/15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a.png",
+      "size": 553098,
+      "sha256": "15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/main.png"
+    },
+    {
+      "brush": "DuctTape",
+      "aliases": [
+        "DuctTape",
+        "DuctTape_0"
+      ],
+      "guid": "3ca16e2f-bdcd-4da2-8631-dcef342f40f1",
+      "slot": "BumpMap",
+      "asset": "brush-textures/0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3.png",
+      "size": 738831,
+      "sha256": "0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/normal.png"
+    },
+    {
+      "brush": "DuctTape",
+      "aliases": [
+        "DuctTape",
+        "DuctTape_0"
+      ],
+      "guid": "3ca16e2f-bdcd-4da2-8631-dcef342f40f1",
+      "slot": "MainTex",
+      "asset": "brush-textures/15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a.png",
+      "size": 553098,
+      "sha256": "15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/main.png"
+    },
+    {
+      "brush": "Embers",
+      "aliases": [
+        "Embers"
+      ],
+      "guid": "02ffb866-7fb2-4d15-b761-1012cefb1360",
+      "slot": "MainTex",
+      "asset": "brush-textures/16987879836aa24bef65677adaebd7f75cefb3431d9d3b912e74d7390c805737.png",
+      "size": 21353,
+      "sha256": "16987879836aa24bef65677adaebd7f75cefb3431d9d3b912e74d7390c805737",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Embers/maintexture.png"
+    },
+    {
+      "brush": "Feather",
+      "aliases": [
+        "Feather",
+        "Feather_16"
+      ],
+      "guid": "a555b809-2017-46cb-ac26-e63173d8f45e",
+      "slot": "MainTex",
+      "asset": "brush-textures/04a761715913f22fde48ae88f84ec1ceac7a14db27898f2368ea46185dff83fa.png",
+      "size": 513310,
+      "sha256": "04a761715913f22fde48ae88f84ec1ceac7a14db27898f2368ea46185dff83fa",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Feather/Feather_Texture.png"
+    },
+    {
+      "brush": "Fire",
+      "aliases": [
+        "Fire"
+      ],
+      "guid": "cb92b597-94ca-4255-b017-0e3f42f12f9e",
+      "slot": "MainTex",
+      "asset": "brush-textures/51719096738eeeaaccff26b5f919a06ce4cd6f997b827e7681558034e01e145c.png",
+      "size": 125972,
+      "sha256": "51719096738eeeaaccff26b5f919a06ce4cd6f997b827e7681558034e01e145c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Fire/fire.png"
+    },
+    {
+      "brush": "Fire2",
+      "aliases": [
+        "Fire2",
+        "Fire2_16"
+      ],
+      "guid": "53d753ef-083c-45e1-98e7-4459b4471219",
+      "slot": "DisplaceTex",
+      "asset": "brush-textures/1e93eb5066edcee298653b42af7cc350695cd1c6bce20791c5c53d51f46ebb86.png",
+      "size": 178012,
+      "sha256": "1e93eb5066edcee298653b42af7cc350695cd1c6bce20791c5c53d51f46ebb86",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Fire 2/distortion.png"
+    },
+    {
+      "brush": "Fire2",
+      "aliases": [
+        "Fire2",
+        "Fire2_16"
+      ],
+      "guid": "53d753ef-083c-45e1-98e7-4459b4471219",
+      "slot": "MainTex",
+      "asset": "brush-textures/d5727d2d0e120f4bcc00e5d6565e99e8652afab3d8c57864b5fe3366ca7f9525.png",
+      "size": 504900,
+      "sha256": "d5727d2d0e120f4bcc00e5d6565e99e8652afab3d8c57864b5fe3366ca7f9525",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Fire 2/flame_map.png"
+    },
+    {
+      "brush": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "guid": "1b897b7e-9b76-425a-b031-a867c48df409",
+      "slot": "BumpMap",
+      "asset": "brush-textures/9cc0d8710c9be338856f23945dc3934816aec6fa7a09145fd45ae50f9f6fb921.png",
+      "size": 282631,
+      "sha256": "9cc0d8710c9be338856f23945dc3934816aec6fa7a09145fd45ae50f9f6fb921",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Gouache/normal.png"
+    },
+    {
+      "brush": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "guid": "1b897b7e-9b76-425a-b031-a867c48df409",
+      "slot": "MainTex",
+      "asset": "brush-textures/5bc97522d263fd26cf52abe77b3cd3ad0ce13002b086b0d7ec8929f785d4fe73.png",
+      "size": 132859,
+      "sha256": "5bc97522d263fd26cf52abe77b3cd3ad0ce13002b086b0d7ec8929f785d4fe73",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Gouache/main.png"
+    },
+    {
+      "brush": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "guid": "4465b5ef-3605-bec4-2b3e-6b04508ddb6b",
+      "slot": "BumpMap",
+      "asset": "brush-textures/9cc0d8710c9be338856f23945dc3934816aec6fa7a09145fd45ae50f9f6fb921.png",
+      "size": 282631,
+      "sha256": "9cc0d8710c9be338856f23945dc3934816aec6fa7a09145fd45ae50f9f6fb921",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Gouache/normal.png"
+    },
+    {
+      "brush": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "guid": "4465b5ef-3605-bec4-2b3e-6b04508ddb6b",
+      "slot": "MainTex",
+      "asset": "brush-textures/5bc97522d263fd26cf52abe77b3cd3ad0ce13002b086b0d7ec8929f785d4fe73.png",
+      "size": 132859,
+      "sha256": "5bc97522d263fd26cf52abe77b3cd3ad0ce13002b086b0d7ec8929f785d4fe73",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Gouache/main.png"
+    },
+    {
+      "brush": "Guts",
+      "aliases": [
+        "Guts",
+        "Guts_16"
+      ],
+      "guid": "99aafe96-1645-44cd-99bd-979bc6ef37c5",
+      "slot": "BumpMap",
+      "asset": "brush-textures/e9cf7ce2d7b778714c893572a8519be32287e713454c58debeb19c9ca749bdff.png",
+      "size": 259614,
+      "sha256": "e9cf7ce2d7b778714c893572a8519be32287e713454c58debeb19c9ca749bdff",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Guts/normal.png"
+    },
+    {
+      "brush": "Guts",
+      "aliases": [
+        "Guts",
+        "Guts_16"
+      ],
+      "guid": "99aafe96-1645-44cd-99bd-979bc6ef37c5",
+      "slot": "MainTex",
+      "asset": "brush-textures/7bd37a24bd19eda59da462a0fa5d2d2f0155954808c51dd5475d55bc46c7b19a.png",
+      "size": 25852,
+      "sha256": "7bd37a24bd19eda59da462a0fa5d2d2f0155954808c51dd5475d55bc46c7b19a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Guts/color.png"
+    },
+    {
+      "brush": "Highlighter",
+      "aliases": [
+        "Highlighter"
+      ],
+      "guid": "cf019139-d41c-4eb0-a1d0-5cf54b0a42f3",
+      "slot": "MainTex",
+      "asset": "brush-textures/eb66443bafcd4de6fbf8cc8e18cab04bb4acea80e66c7de9b1746c6b02abd625.png",
+      "size": 17671,
+      "sha256": "eb66443bafcd4de6fbf8cc8e18cab04bb4acea80e66c7de9b1746c6b02abd625",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Highlighter/maintexture.png"
+    },
+    {
+      "brush": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_15"
+      ],
+      "guid": "dce872c2-7b49-4684-b59b-c45387949c5c",
+      "slot": "BumpMap",
+      "asset": "brush-textures/517e93869f34868857ed65a6d2f55ebd04a123904c7c24abafdc6155a07cba72.png",
+      "size": 152342,
+      "sha256": "517e93869f34868857ed65a6d2f55ebd04a123904c7c24abafdc6155a07cba72",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/normal.png"
+    },
+    {
+      "brush": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_15"
+      ],
+      "guid": "dce872c2-7b49-4684-b59b-c45387949c5c",
+      "slot": "MainTex",
+      "asset": "brush-textures/66870c1b071e63478a83ee8d655667e1c848da3c398aea1c4fe86d7f7bb87fdc.png",
+      "size": 299704,
+      "sha256": "66870c1b071e63478a83ee8d655667e1c848da3c398aea1c4fe86d7f7bb87fdc",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/main.png"
+    },
+    {
+      "brush": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_0"
+      ],
+      "guid": "e8ef32b1-baa8-460a-9c2c-9cf8506794f5",
+      "slot": "BumpMap",
+      "asset": "brush-textures/517e93869f34868857ed65a6d2f55ebd04a123904c7c24abafdc6155a07cba72.png",
+      "size": 152342,
+      "sha256": "517e93869f34868857ed65a6d2f55ebd04a123904c7c24abafdc6155a07cba72",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/normal.png"
+    },
+    {
+      "brush": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_0"
+      ],
+      "guid": "e8ef32b1-baa8-460a-9c2c-9cf8506794f5",
+      "slot": "MainTex",
+      "asset": "brush-textures/66870c1b071e63478a83ee8d655667e1c848da3c398aea1c4fe86d7f7bb87fdc.png",
+      "size": 299704,
+      "sha256": "66870c1b071e63478a83ee8d655667e1c848da3c398aea1c4fe86d7f7bb87fdc",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/main.png"
+    },
+    {
+      "brush": "HyperGrid",
+      "aliases": [
+        "HyperGrid"
+      ],
+      "guid": "6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+      "slot": "MainTex",
+      "asset": "brush-textures/b7d1eaf62b73ee31f2ba5212049b9c44892828644c3d87a8cdfd0d41e6eafbb2.png",
+      "size": 20620,
+      "sha256": "b7d1eaf62b73ee31f2ba5212049b9c44892828644c3d87a8cdfd0d41e6eafbb2",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/HyperGrid/maintexture.png"
+    },
+    {
+      "brush": "Icing",
+      "aliases": [
+        "Icing",
+        "Icing_16"
+      ],
+      "guid": "2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+      "slot": "BumpMap",
+      "asset": "brush-textures/f1603f1982798346d6249bdb6726fd87f1c32821748f06fb719f3a4fbda745c0.png",
+      "size": 482377,
+      "sha256": "f1603f1982798346d6249bdb6726fd87f1c32821748f06fb719f3a4fbda745c0",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Icing/normal.png"
+    },
+    {
+      "brush": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_15"
+      ],
+      "guid": "f5c336cf-5108-4b40-ade9-c687504385ab",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c.png",
+      "size": 128247,
+      "sha256": "8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture_normal.png"
+    },
+    {
+      "brush": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_15"
+      ],
+      "guid": "f5c336cf-5108-4b40-ade9-c687504385ab",
+      "slot": "MainTex",
+      "asset": "brush-textures/ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1.png",
+      "size": 163615,
+      "sha256": "ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture.png"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c.png",
+      "size": 128247,
+      "sha256": "8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture_normal.png"
+    },
+    {
+      "brush": "_16",
+      "aliases": [
+        "_16"
+      ],
+      "guid": "7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb",
+      "slot": "MainTex",
+      "asset": "brush-textures/ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1.png",
+      "size": 163615,
+      "sha256": "ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture.png"
+    },
+    {
+      "brush": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_0"
+      ],
+      "guid": "c0012095-3ffd-4040-8ee1-fc180d346eaa",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c.png",
+      "size": 128247,
+      "sha256": "8ac55c4e4a6977137cb06e67600230b144aa2884ef2b4d9637abfd9dcb95985c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture_normal.png"
+    },
+    {
+      "brush": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_0"
+      ],
+      "guid": "c0012095-3ffd-4040-8ee1-fc180d346eaa",
+      "slot": "MainTex",
+      "asset": "brush-textures/ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1.png",
+      "size": 163615,
+      "sha256": "ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture.png"
+    },
+    {
+      "brush": "Lacewing",
+      "aliases": [
+        "Lacewing",
+        "Lacewing_16"
+      ],
+      "guid": "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c",
+      "slot": "BumpMap",
+      "asset": "brush-textures/672113552910e4b1ef3ffc2f39a4d2b5cf03a771186ba688d9f21707bf058379.png",
+      "size": 28771,
+      "sha256": "672113552910e4b1ef3ffc2f39a4d2b5cf03a771186ba688d9f21707bf058379",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/normal.png"
+    },
+    {
+      "brush": "Lacewing",
+      "aliases": [
+        "Lacewing",
+        "Lacewing_16"
+      ],
+      "guid": "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c",
+      "slot": "MainTex",
+      "asset": "brush-textures/e296f2ffc117b2dea823d77e5d2a81fd83e0994182a842f462f196c102214fa5.png",
+      "size": 16152,
+      "sha256": "e296f2ffc117b2dea823d77e5d2a81fd83e0994182a842f462f196c102214fa5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/main.png"
+    },
+    {
+      "brush": "Lacewing",
+      "aliases": [
+        "Lacewing",
+        "Lacewing_16"
+      ],
+      "guid": "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c",
+      "slot": "SpecGlossMap",
+      "asset": "brush-textures/4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818.png",
+      "size": 49041,
+      "sha256": "4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/specular.png"
+    },
+    {
+      "brush": "Lacewing",
+      "aliases": [
+        "Lacewing",
+        "Lacewing_16"
+      ],
+      "guid": "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c",
+      "slot": "SpecTex",
+      "asset": "brush-textures/4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818.png",
+      "size": 49041,
+      "sha256": "4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/specular.png"
+    },
+    {
+      "brush": "Leaves2",
+      "aliases": [
+        "Leaves2",
+        "Leaves2_16"
+      ],
+      "guid": "7259cce5-41c1-ec74-c885-78af28a31d95",
+      "slot": "BumpMap",
+      "asset": "brush-textures/fa341b50a01388fb74ec96162aef9d166fe725282aaf8c1da7ea380edbce6c2a.png",
+      "size": 142238,
+      "sha256": "fa341b50a01388fb74ec96162aef9d166fe725282aaf8c1da7ea380edbce6c2a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Leaves/normal.png"
+    },
+    {
+      "brush": "Leaves2",
+      "aliases": [
+        "Leaves2",
+        "Leaves2_16"
+      ],
+      "guid": "7259cce5-41c1-ec74-c885-78af28a31d95",
+      "slot": "MainTex",
+      "asset": "brush-textures/10a799487c0074131b9738173d5d58866895dcc9bb46788d8299dac7c0ebe5c7.png",
+      "size": 80705,
+      "sha256": "10a799487c0074131b9738173d5d58866895dcc9bb46788d8299dac7c0ebe5c7",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Leaves/leaves.png"
+    },
+    {
+      "brush": "Leaves",
+      "aliases": [
+        "Leaves",
+        "Leaves_0"
+      ],
+      "guid": "ea19de07-d0c0-4484-9198-18489a3c1487",
+      "slot": "BumpMap",
+      "asset": "brush-textures/fa341b50a01388fb74ec96162aef9d166fe725282aaf8c1da7ea380edbce6c2a.png",
+      "size": 142238,
+      "sha256": "fa341b50a01388fb74ec96162aef9d166fe725282aaf8c1da7ea380edbce6c2a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Leaves/normal.png"
+    },
+    {
+      "brush": "Leaves",
+      "aliases": [
+        "Leaves",
+        "Leaves_0"
+      ],
+      "guid": "ea19de07-d0c0-4484-9198-18489a3c1487",
+      "slot": "MainTex",
+      "asset": "brush-textures/10a799487c0074131b9738173d5d58866895dcc9bb46788d8299dac7c0ebe5c7.png",
+      "size": 80705,
+      "sha256": "10a799487c0074131b9738173d5d58866895dcc9bb46788d8299dac7c0ebe5c7",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Leaves/leaves.png"
+    },
+    {
+      "brush": "Light",
+      "aliases": [
+        "Light"
+      ],
+      "guid": "2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+      "slot": "MainTex",
+      "asset": "brush-textures/efdfd54d84620f22fcb54a058034d45fc82e559e2c89e43e0f3af4371e8234ca.png",
+      "size": 73925,
+      "sha256": "efdfd54d84620f22fcb54a058034d45fc82e559e2c89e43e0f3af4371e8234ca",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Light/maintexture.png"
+    },
+    {
+      "brush": "LightWire",
+      "aliases": [
+        "LightWire"
+      ],
+      "guid": "4391aaaa-df81-4396-9e33-31e4e4930b27",
+      "slot": "MainTex",
+      "asset": "brush-textures/621bbc62fd330423aaf7b2b32ee65435cb1c5f71e4fde33bf8f0db3db28b2317.png",
+      "size": 16175,
+      "sha256": "621bbc62fd330423aaf7b2b32ee65435cb1c5f71e4fde33bf8f0db3db28b2317",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/LightWire/maintexture.png"
+    },
+    {
+      "brush": "Marbled Rainbow",
+      "aliases": [
+        "Marbled Rainbow",
+        "Marbled Rainbow_16"
+      ],
+      "guid": "c86c058d-1bda-2e94-08db-f3d6a96ac4a1",
+      "slot": "BumpMap",
+      "asset": "brush-textures/68b911a57b2f316ef7e350d6f21905ff730ffc18e48e6341808ad8ebddebd35a.png",
+      "size": 61687,
+      "sha256": "68b911a57b2f316ef7e350d6f21905ff730ffc18e48e6341808ad8ebddebd35a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/MarbledRainbow/normal.png"
+    },
+    {
+      "brush": "Marbled Rainbow",
+      "aliases": [
+        "Marbled Rainbow",
+        "Marbled Rainbow_16"
+      ],
+      "guid": "c86c058d-1bda-2e94-08db-f3d6a96ac4a1",
+      "slot": "MainTex",
+      "asset": "brush-textures/a983c04533b881933c107ce2a927d5f4a299573c2d5a3e73f4b6a7189ad222bc.png",
+      "size": 75992,
+      "sha256": "a983c04533b881933c107ce2a927d5f4a299573c2d5a3e73f4b6a7189ad222bc",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/MarbledRainbow/main.png"
+    },
+    {
+      "brush": "Marbled Rainbow",
+      "aliases": [
+        "Marbled Rainbow",
+        "Marbled Rainbow_16"
+      ],
+      "guid": "c86c058d-1bda-2e94-08db-f3d6a96ac4a1",
+      "slot": "SpecGlossMap",
+      "asset": "brush-textures/4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818.png",
+      "size": 49041,
+      "sha256": "4915637679741e6d685f5b7654f1243981c5e1380a10a8019b2ff2d132bd0818",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/specular.png"
+    },
+    {
+      "brush": "Marbled Rainbow",
+      "aliases": [
+        "Marbled Rainbow",
+        "Marbled Rainbow_16"
+      ],
+      "guid": "c86c058d-1bda-2e94-08db-f3d6a96ac4a1",
+      "slot": "SpecTex",
+      "asset": "brush-textures/08dd1932bc9a75b48d906e209132243bde47c6d5389567dac7cb2f7ce44c08b3.png",
+      "size": 253971,
+      "sha256": "08dd1932bc9a75b48d906e209132243bde47c6d5389567dac7cb2f7ce44c08b3",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/MarbledRainbow/specular.png"
+    },
+    {
+      "brush": "Marker",
+      "aliases": [
+        "Marker"
+      ],
+      "guid": "429ed64a-4e97-4466-84d3-145a861ef684",
+      "slot": "MainTex",
+      "asset": "brush-textures/b0c3d6ac04ed238fcd7bebb11f085d720a7bc946810d9807da4bfc64ae796b8f.png",
+      "size": 23274,
+      "sha256": "b0c3d6ac04ed238fcd7bebb11f085d720a7bc946810d9807da4bfc64ae796b8f",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Marker/maintexture.png"
+    },
+    {
+      "brush": "Muscle",
+      "aliases": [
+        "Muscle",
+        "Muscle_16"
+      ],
+      "guid": "f28c395c-a57d-464b-8f0b-558c59478fa3",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8eae97b02a20967cf0f9dc941fcd56ec6dea128cef1d92164f49f1bba39cf8a1.png",
+      "size": 893508,
+      "sha256": "8eae97b02a20967cf0f9dc941fcd56ec6dea128cef1d92164f49f1bba39cf8a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Muscle/muscle_normal.png"
+    },
+    {
+      "brush": "Muscle",
+      "aliases": [
+        "Muscle",
+        "Muscle_16"
+      ],
+      "guid": "f28c395c-a57d-464b-8f0b-558c59478fa3",
+      "slot": "MainTex",
+      "asset": "brush-textures/d02111504f372e8937934db03b29505922ba4b9f7876238b935f47e757c3d5e5.png",
+      "size": 358729,
+      "sha256": "d02111504f372e8937934db03b29505922ba4b9f7876238b935f47e757c3d5e5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Muscle/muscle_color.png"
+    },
+    {
+      "brush": "MylarTube",
+      "aliases": [
+        "MylarTube",
+        "MylarTube_16"
+      ],
+      "guid": "8e58ceea-7830-49b4-aba9-6215104ab52a",
+      "slot": "MainTex",
+      "asset": "brush-textures/91a94b50cfb3bdd915a9cd2f98a9891f648cdec858da7883ea2d42409a19fc75.png",
+      "size": 58436,
+      "sha256": "91a94b50cfb3bdd915a9cd2f98a9891f648cdec858da7883ea2d42409a19fc75",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/BubbleWand/main.png"
+    },
+    {
+      "brush": "NeonPulse",
+      "aliases": [
+        "NeonPulse"
+      ],
+      "guid": "b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+      "slot": "MainTex",
+      "asset": "brush-textures/38c4e9389906d6d2500b59ce9050358a7e9829f53eb6842db7394cefc4af6370.png",
+      "size": 26805,
+      "sha256": "38c4e9389906d6d2500b59ce9050358a7e9829f53eb6842db7394cefc4af6370",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformPulse/main.png"
+    },
+    {
+      "brush": "OilPaint",
+      "aliases": [
+        "OilPaint",
+        "OilPaint_15"
+      ],
+      "guid": "f72ec0e7-a844-4e38-82e3-140c44772699",
+      "slot": "BumpMap",
+      "asset": "brush-textures/952daf716b783c87ead6e931db56a92603f1106de847d769ed59584195e8cb86.png",
+      "size": 619001,
+      "sha256": "952daf716b783c87ead6e931db56a92603f1106de847d769ed59584195e8cb86",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaint/normal.png"
+    },
+    {
+      "brush": "OilPaint",
+      "aliases": [
+        "OilPaint",
+        "OilPaint_15"
+      ],
+      "guid": "f72ec0e7-a844-4e38-82e3-140c44772699",
+      "slot": "MainTex",
+      "asset": "brush-textures/5b23c4520f97f0d30c87b7a901bc10b16967f3f404ceda9f5fb958605e288c41.png",
+      "size": 718730,
+      "sha256": "5b23c4520f97f0d30c87b7a901bc10b16967f3f404ceda9f5fb958605e288c41",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaint/main.png"
+    },
+    {
+      "brush": "OilPaint",
+      "aliases": [
+        "OilPaint",
+        "OilPaint_0"
+      ],
+      "guid": "c515dad7-4393-4681-81ad-162ef052241b",
+      "slot": "BumpMap",
+      "asset": "brush-textures/952daf716b783c87ead6e931db56a92603f1106de847d769ed59584195e8cb86.png",
+      "size": 619001,
+      "sha256": "952daf716b783c87ead6e931db56a92603f1106de847d769ed59584195e8cb86",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaint/normal.png"
+    },
+    {
+      "brush": "OilPaint",
+      "aliases": [
+        "OilPaint",
+        "OilPaint_0"
+      ],
+      "guid": "c515dad7-4393-4681-81ad-162ef052241b",
+      "slot": "MainTex",
+      "asset": "brush-textures/5b23c4520f97f0d30c87b7a901bc10b16967f3f404ceda9f5fb958605e288c41.png",
+      "size": 718730,
+      "sha256": "5b23c4520f97f0d30c87b7a901bc10b16967f3f404ceda9f5fb958605e288c41",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaint/main.png"
+    },
+    {
+      "brush": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_15"
+      ],
+      "guid": "f1114e2e-eb8d-4fde-915a-6e653b54e9f5",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8e8c6023a310fdbd417fa77fc859149a0f63e9d6a3c6c92d9e8c9c2e500fe5b5.png",
+      "size": 219813,
+      "sha256": "8e8c6023a310fdbd417fa77fc859149a0f63e9d6a3c6c92d9e8c9c2e500fe5b5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Paper/bump.png"
+    },
+    {
+      "brush": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_15"
+      ],
+      "guid": "f1114e2e-eb8d-4fde-915a-6e653b54e9f5",
+      "slot": "MainTex",
+      "asset": "brush-textures/77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d.png",
+      "size": 486884,
+      "sha256": "77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Paper/main.png"
+    },
+    {
+      "brush": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_0"
+      ],
+      "guid": "759f1ebd-20cd-4720-8d41-234e0da63716",
+      "slot": "BumpMap",
+      "asset": "brush-textures/8e8c6023a310fdbd417fa77fc859149a0f63e9d6a3c6c92d9e8c9c2e500fe5b5.png",
+      "size": 219813,
+      "sha256": "8e8c6023a310fdbd417fa77fc859149a0f63e9d6a3c6c92d9e8c9c2e500fe5b5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Paper/bump.png"
+    },
+    {
+      "brush": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_0"
+      ],
+      "guid": "759f1ebd-20cd-4720-8d41-234e0da63716",
+      "slot": "MainTex",
+      "asset": "brush-textures/77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d.png",
+      "size": 486884,
+      "sha256": "77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Paper/main.png"
+    },
+    {
+      "brush": "Plasma",
+      "aliases": [
+        "Plasma"
+      ],
+      "guid": "c33714d1-b2f9-412e-bd50-1884c9d46336",
+      "slot": "MainTex",
+      "asset": "brush-textures/53b059a28013f6e25a65967e3089f8ebbdbc74de8e5661dba18c3772a2d3c276.png",
+      "size": 57725,
+      "sha256": "53b059a28013f6e25a65967e3089f8ebbdbc74de8e5661dba18c3772a2d3c276",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Plasma/main.png"
+    },
+    {
+      "brush": "Rain",
+      "aliases": [
+        "Rain",
+        "Rain_16"
+      ],
+      "guid": "03a529e1-f519-3dd4-582d-2d5cd92c3f4f",
+      "slot": "AlphaMask",
+      "asset": "brush-textures/9a4ed7343b26a1b52ff1a90bec6e97c595053f2c434c5067e34dad06b3fed0aa.png",
+      "size": 8205,
+      "sha256": "9a4ed7343b26a1b52ff1a90bec6e97c595053f2c434c5067e34dad06b3fed0aa",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Rain/main.png"
+    },
+    {
+      "brush": "Rain",
+      "aliases": [
+        "Rain",
+        "Rain_16"
+      ],
+      "guid": "03a529e1-f519-3dd4-582d-2d5cd92c3f4f",
+      "slot": "MainTex",
+      "asset": "brush-textures/9a4ed7343b26a1b52ff1a90bec6e97c595053f2c434c5067e34dad06b3fed0aa.png",
+      "size": 8205,
+      "sha256": "9a4ed7343b26a1b52ff1a90bec6e97c595053f2c434c5067e34dad06b3fed0aa",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Rain/main.png"
+    },
+    {
+      "brush": "Rising Bubbles",
+      "aliases": [
+        "Rising Bubbles",
+        "Rising Bubbles_16"
+      ],
+      "guid": "a8147ce1-005e-abe4-88e8-09a1eaadcc89",
+      "slot": "MainTex",
+      "asset": "brush-textures/b138873ca78ac1723e8adc16ec0623ebf1b1eeb313c8ee266d0845d40dfc4329.png",
+      "size": 132651,
+      "sha256": "b138873ca78ac1723e8adc16ec0623ebf1b1eeb313c8ee266d0845d40dfc4329",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/RisingBubbles/maintexture.png"
+    },
+    {
+      "brush": "ShinyHull",
+      "aliases": [
+        "ShinyHull",
+        "ShinyHull_16"
+      ],
+      "guid": "faaa4d44-fcfb-4177-96be-753ac0421ba3",
+      "slot": "Side",
+      "asset": "brush-textures/ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1.png",
+      "size": 163615,
+      "sha256": "ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture.png"
+    },
+    {
+      "brush": "SingleSided",
+      "aliases": [
+        "SingleSided",
+        "SingleSided_16"
+      ],
+      "guid": "f0a2298a-be80-432c-9fee-a86dcc06f4f9",
+      "slot": "MainTex",
+      "asset": "brush-textures/010932032cf95afea1f3bf7de09cec2ed22ec123e2cea4b4b107ec2be1163e3c.png",
+      "size": 1006,
+      "sha256": "010932032cf95afea1f3bf7de09cec2ed22ec123e2cea4b4b107ec2be1163e3c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/SingleSided/maintexture.png"
+    },
+    {
+      "brush": "Smoke",
+      "aliases": [
+        "Smoke"
+      ],
+      "guid": "70d79cca-b159-4f35-990c-f02193947fe8",
+      "slot": "MainTex",
+      "asset": "brush-textures/9df90a5135d9460108574b6a3d7b2e22b326c3e1e0898dc8bda918f2c5e88969.png",
+      "size": 68701,
+      "sha256": "9df90a5135d9460108574b6a3d7b2e22b326c3e1e0898dc8bda918f2c5e88969",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Smoke/maintexture.png"
+    },
+    {
+      "brush": "SmoothHull",
+      "aliases": [
+        "SmoothHull",
+        "SmoothHull_16"
+      ],
+      "guid": "355b3579-bf1d-4ff5-a200-704437fe684b",
+      "slot": "Side",
+      "asset": "brush-textures/ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1.png",
+      "size": 163615,
+      "sha256": "ab4557d0d11eb0d31e50dd47f1862dfffb5d64adc1589b488ab458df506412a1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/maintexture.png"
+    },
+    {
+      "brush": "Snow",
+      "aliases": [
+        "Snow"
+      ],
+      "guid": "d902ed8b-d0d1-476c-a8de-878a79e3a34c",
+      "slot": "MainTex",
+      "asset": "brush-textures/53cb1ad949622f6f8932961000a2cee87f27cfb771abba0db478efcc6664e900.png",
+      "size": 58188,
+      "sha256": "53cb1ad949622f6f8932961000a2cee87f27cfb771abba0db478efcc6664e900",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Snow/maintexture.png"
+    },
+    {
+      "brush": "SoftHighlighter",
+      "aliases": [
+        "SoftHighlighter"
+      ],
+      "guid": "accb32f5-4509-454f-93f8-1df3fd31df1b",
+      "slot": "MainTex",
+      "asset": "brush-textures/19cedce38cb6b773151e80345f83af902c72e06c9433b3f403ba69a3c9e84788.png",
+      "size": 52835,
+      "sha256": "19cedce38cb6b773151e80345f83af902c72e06c9433b3f403ba69a3c9e84788",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/SoftHighlighter/maintexture.png"
+    },
+    {
+      "brush": "Sparks",
+      "aliases": [
+        "Sparks",
+        "Sparks_16"
+      ],
+      "guid": "50e99447-3861-05f4-697d-a1b96e771b98",
+      "slot": "MainTex",
+      "asset": "brush-textures/7e862e04c0c3b8580785c7803bf213d52320f2ab5b3440b34915abcadcece09e.png",
+      "size": 22176,
+      "sha256": "7e862e04c0c3b8580785c7803bf213d52320f2ab5b3440b34915abcadcece09e",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Sparks/maintexture.png"
+    },
+    {
+      "brush": "Splatter",
+      "aliases": [
+        "Splatter",
+        "Splatter_15"
+      ],
+      "guid": "8dc4a70c-d558-4efd-a5ed-d4e860f40dc3",
+      "slot": "MainTex",
+      "asset": "brush-textures/ba7b72647b16026a7ec8ed0bc2990252ff22a5fb8e4f29ceb0f13e24a9733df1.png",
+      "size": 197835,
+      "sha256": "ba7b72647b16026a7ec8ed0bc2990252ff22a5fb8e4f29ceb0f13e24a9733df1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Splatter/main.png"
+    },
+    {
+      "brush": "Splatter",
+      "aliases": [
+        "Splatter",
+        "Splatter_0"
+      ],
+      "guid": "7a1c8107-50c5-4b70-9a39-421576d6617e",
+      "slot": "MainTex",
+      "asset": "brush-textures/ba7b72647b16026a7ec8ed0bc2990252ff22a5fb8e4f29ceb0f13e24a9733df1.png",
+      "size": 197835,
+      "sha256": "ba7b72647b16026a7ec8ed0bc2990252ff22a5fb8e4f29ceb0f13e24a9733df1",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Splatter/main.png"
+    },
+    {
+      "brush": "SquarePaper",
+      "aliases": [
+        "SquarePaper",
+        "SquarePaper_16"
+      ],
+      "guid": "2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa",
+      "slot": "BumpMap",
+      "asset": "brush-textures/7961b76855c2ad2083ce5664522c96368e97629963a995f5949d25f874ba2d34.png",
+      "size": 668760,
+      "sha256": "7961b76855c2ad2083ce5664522c96368e97629963a995f5949d25f874ba2d34",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Square/normal.png"
+    },
+    {
+      "brush": "SquarePaper",
+      "aliases": [
+        "SquarePaper",
+        "SquarePaper_16"
+      ],
+      "guid": "2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa",
+      "slot": "MainTex",
+      "asset": "brush-textures/77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d.png",
+      "size": 486884,
+      "sha256": "77ba4d27c407cab0ce6b602f9f98ca8c8d4e5ffec596b17c305cadc4a772d45d",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Square/main.png"
+    },
+    {
+      "brush": "Stars",
+      "aliases": [
+        "Stars"
+      ],
+      "guid": "0eb4db27-3f82-408d-b5a1-19ebd7d5b711",
+      "slot": "MainTex",
+      "asset": "brush-textures/71335c9ce140ef9aab8cb44fc6358e4e636a0f695b90ae5c08a0e35b1b1b1f66.png",
+      "size": 48941,
+      "sha256": "71335c9ce140ef9aab8cb44fc6358e4e636a0f695b90ae5c08a0e35b1b1b1f66",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Stars/maintexture.png"
+    },
+    {
+      "brush": "Streamers",
+      "aliases": [
+        "Streamers"
+      ],
+      "guid": "44bb800a-fbc3-4592-8426-94ecb05ddec3",
+      "slot": "MainTex",
+      "asset": "brush-textures/6549a702421dc6024faec11af108954b3b35cab924ccc58f256e961d37d0461c.png",
+      "size": 18244,
+      "sha256": "6549a702421dc6024faec11af108954b3b35cab924ccc58f256e961d37d0461c",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Streamers/main.png"
+    },
+    {
+      "brush": "Taffy",
+      "aliases": [
+        "Taffy"
+      ],
+      "guid": "0077f88c-d93a-42f3-b59b-b31c50cdb414",
+      "slot": "MainTex",
+      "asset": "brush-textures/f21d39568646dfd310462e449c5682b6ef99d39771d9dab5bab25ed3af78570e.png",
+      "size": 91902,
+      "sha256": "f21d39568646dfd310462e449c5682b6ef99d39771d9dab5bab25ed3af78570e",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Taffy/main.png"
+    },
+    {
+      "brush": "TaperedFlat",
+      "aliases": [
+        "TaperedFlat",
+        "TaperedFlat_15"
+      ],
+      "guid": "b468c1fb-f254-41ed-8ec9-57030bc5660c",
+      "slot": "MainTex",
+      "asset": "brush-textures/a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6.png",
+      "size": 24552,
+      "sha256": "a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedFlat/maintexture.png"
+    },
+    {
+      "brush": "TaperedFlat",
+      "aliases": [
+        "TaperedFlat",
+        "TaperedFlat_0"
+      ],
+      "guid": "c8ccb53d-ae13-45ef-8afb-b730d81394eb",
+      "slot": "MainTex",
+      "asset": "brush-textures/a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6.png",
+      "size": 24552,
+      "sha256": "a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedFlat/maintexture.png"
+    },
+    {
+      "brush": "TaperedHueShift",
+      "aliases": [
+        "TaperedHueShift",
+        "TaperedHueShift_16"
+      ],
+      "guid": "3d9755da-56c7-7294-9b1d-5ec349975f52",
+      "slot": "MainTex",
+      "asset": "brush-textures/1d31ff0b41ae55788646f9ee2e36162bf63f97a2d70b0b9cf361224180371e8b.png",
+      "size": 25985,
+      "sha256": "1d31ff0b41ae55788646f9ee2e36162bf63f97a2d70b0b9cf361224180371e8b",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/TaperedHueShift/main.png"
+    },
+    {
+      "brush": "TaperedMarker",
+      "aliases": [
+        "TaperedMarker"
+      ],
+      "guid": "d90c6ad8-af0f-4b54-b422-e0f92abe1b3c",
+      "slot": "MainTex",
+      "asset": "brush-textures/a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6.png",
+      "size": 24552,
+      "sha256": "a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedMarker/maintexture.png"
+    },
+    {
+      "brush": "TaperedMarker_Flat",
+      "aliases": [
+        "TaperedMarker_Flat"
+      ],
+      "guid": "1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0",
+      "slot": "MainTex",
+      "asset": "brush-textures/a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6.png",
+      "size": 24552,
+      "sha256": "a729048b4381394e39601c025c950f508249a330985c0b376623767c357a82e6",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedMarker/maintexture.png"
+    },
+    {
+      "brush": "ThickGeometry",
+      "aliases": [
+        "ThickGeometry",
+        "ThickGeometry_16"
+      ],
+      "guid": "39ee7377-7a9e-47a7-a0f8-0c77712f75d3",
+      "slot": "BumpMap",
+      "asset": "brush-textures/0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3.png",
+      "size": 738831,
+      "sha256": "0e1123cea72de5baae66365f18b50fa4d60a83d8791fd43fc2df4a0e6dd6d3d3",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/normal.png"
+    },
+    {
+      "brush": "ThickGeometry",
+      "aliases": [
+        "ThickGeometry",
+        "ThickGeometry_16"
+      ],
+      "guid": "39ee7377-7a9e-47a7-a0f8-0c77712f75d3",
+      "slot": "MainTex",
+      "asset": "brush-textures/15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a.png",
+      "size": 553098,
+      "sha256": "15190a69dd5bb68c9fc6e609d305b9a4a48376e89521359c8d9b1d1fbc261e1a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/main.png"
+    },
+    {
+      "brush": "ThickPaint",
+      "aliases": [
+        "ThickPaint",
+        "ThickPaint_15"
+      ],
+      "guid": "75b32cf0-fdd6-4d89-a64b-e2a00b247b0f",
+      "slot": "BumpMap",
+      "asset": "brush-textures/f13f9a7f8236e8aee1ea3e43bcf68a8a65509907b58f2dea61ef5a1379a630f5.png",
+      "size": 160899,
+      "sha256": "f13f9a7f8236e8aee1ea3e43bcf68a8a65509907b58f2dea61ef5a1379a630f5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaint/streakystroke_bump.png"
+    },
+    {
+      "brush": "ThickPaint",
+      "aliases": [
+        "ThickPaint",
+        "ThickPaint_15"
+      ],
+      "guid": "75b32cf0-fdd6-4d89-a64b-e2a00b247b0f",
+      "slot": "MainTex",
+      "asset": "brush-textures/50c55748f019c8bd458c734f848387f04d81108b638c0c25500a9c8f56cd699e.png",
+      "size": 140420,
+      "sha256": "50c55748f019c8bd458c734f848387f04d81108b638c0c25500a9c8f56cd699e",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaint/streakystroke.png"
+    },
+    {
+      "brush": "ThickPaint",
+      "aliases": [
+        "ThickPaint",
+        "ThickPaint_0"
+      ],
+      "guid": "fdf0326a-c0d1-4fed-b101-9db0ff6d071f",
+      "slot": "BumpMap",
+      "asset": "brush-textures/f13f9a7f8236e8aee1ea3e43bcf68a8a65509907b58f2dea61ef5a1379a630f5.png",
+      "size": 160899,
+      "sha256": "f13f9a7f8236e8aee1ea3e43bcf68a8a65509907b58f2dea61ef5a1379a630f5",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaint/streakystroke_bump.png"
+    },
+    {
+      "brush": "ThickPaint",
+      "aliases": [
+        "ThickPaint",
+        "ThickPaint_0"
+      ],
+      "guid": "fdf0326a-c0d1-4fed-b101-9db0ff6d071f",
+      "slot": "MainTex",
+      "asset": "brush-textures/50c55748f019c8bd458c734f848387f04d81108b638c0c25500a9c8f56cd699e.png",
+      "size": 140420,
+      "sha256": "50c55748f019c8bd458c734f848387f04d81108b638c0c25500a9c8f56cd699e",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaint/streakystroke.png"
+    },
+    {
+      "brush": "VelvetInk",
+      "aliases": [
+        "VelvetInk"
+      ],
+      "guid": "d229d335-c334-495a-a801-660ac8a87360",
+      "slot": "MainTex",
+      "asset": "brush-textures/a74e1d101dd504535185069bc5c6f3d9928005403c56cc984b4983f1ec39432a.png",
+      "size": 107513,
+      "sha256": "a74e1d101dd504535185069bc5c6f3d9928005403c56cc984b4983f1ec39432a",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/VelvetInk/maintexture.png"
+    },
+    {
+      "brush": "Waveform",
+      "aliases": [
+        "Waveform"
+      ],
+      "guid": "10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+      "slot": "MainTex",
+      "asset": "brush-textures/b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821.png",
+      "size": 16401,
+      "sha256": "b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Waveform/waveform.png"
+    },
+    {
+      "brush": "WaveformFFT",
+      "aliases": [
+        "WaveformFFT",
+        "WaveformFFT_16"
+      ],
+      "guid": "d120944d-772f-4062-99c6-46a6f219eeaf",
+      "slot": "MainTex",
+      "asset": "brush-textures/b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821.png",
+      "size": 16401,
+      "sha256": "b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Waveform/waveform.png"
+    },
+    {
+      "brush": "WaveformParticles",
+      "aliases": [
+        "WaveformParticles",
+        "WaveformParticles_16"
+      ],
+      "guid": "6a1cf9f9-032c-45ec-9b6e-a6680bee30f7",
+      "slot": "MainTex",
+      "asset": "brush-textures/6e92913c54b246ecb4564e395b93dc1a68276366fbc65ca4b6ceb8303375d4ec.png",
+      "size": 16908,
+      "sha256": "6e92913c54b246ecb4564e395b93dc1a68276366fbc65ca4b6ceb8303375d4ec",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformParticles/maintexture.png"
+    },
+    {
+      "brush": "WaveformTube",
+      "aliases": [
+        "WaveformTube",
+        "WaveformTube_16"
+      ],
+      "guid": "0f5820df-cb6b-4a6c-960e-56e4c8000eda",
+      "slot": "MainTex",
+      "asset": "brush-textures/b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821.png",
+      "size": 16401,
+      "sha256": "b45bf344e4b5f248643228549654ac443a2eb3ef195b390005ed9be6edcaa821",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformTube/waveform.png"
+    },
+    {
+      "brush": "WetPaint",
+      "aliases": [
+        "WetPaint",
+        "WetPaint_16"
+      ],
+      "guid": "b67c0e81-ce6d-40a8-aeb0-ef036b081aa3",
+      "slot": "BumpMap",
+      "asset": "brush-textures/d9a87eed2353e9cbe351ff5b89bd3d2e29b85009c8c8d0a6505609137ff87335.png",
+      "size": 278678,
+      "sha256": "d9a87eed2353e9cbe351ff5b89bd3d2e29b85009c8c8d0a6505609137ff87335",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaint/normal.png"
+    },
+    {
+      "brush": "WetPaint",
+      "aliases": [
+        "WetPaint",
+        "WetPaint_16"
+      ],
+      "guid": "b67c0e81-ce6d-40a8-aeb0-ef036b081aa3",
+      "slot": "MainTex",
+      "asset": "brush-textures/7ed8a615f3037c8923cfbad411789e6a74bf93c696cf1d0aeb1637451df11d58.png",
+      "size": 316997,
+      "sha256": "7ed8a615f3037c8923cfbad411789e6a74bf93c696cf1d0aeb1637451df11d58",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaint/main.png"
+    },
+    {
+      "brush": "WetPaint",
+      "aliases": [
+        "WetPaint",
+        "WetPaintSingleSided"
+      ],
+      "guid": "dea67637-cd1a-27e4-c9b1-52f4bbcb84e5",
+      "slot": "BumpMap",
+      "asset": "brush-textures/d9a87eed2353e9cbe351ff5b89bd3d2e29b85009c8c8d0a6505609137ff87335.png",
+      "size": 278678,
+      "sha256": "d9a87eed2353e9cbe351ff5b89bd3d2e29b85009c8c8d0a6505609137ff87335",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaint/normal.png"
+    },
+    {
+      "brush": "WetPaint",
+      "aliases": [
+        "WetPaint",
+        "WetPaintSingleSided"
+      ],
+      "guid": "dea67637-cd1a-27e4-c9b1-52f4bbcb84e5",
+      "slot": "MainTex",
+      "asset": "brush-textures/7ed8a615f3037c8923cfbad411789e6a74bf93c696cf1d0aeb1637451df11d58.png",
+      "size": 316997,
+      "sha256": "7ed8a615f3037c8923cfbad411789e6a74bf93c696cf1d0aeb1637451df11d58",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaint/main.png"
+    },
+    {
+      "brush": "WigglyGraphite",
+      "aliases": [
+        "WigglyGraphite",
+        "WigglyGraphite_16"
+      ],
+      "guid": "5347acf0-a8e2-47b6-8346-30c70719d763",
+      "slot": "MainTex",
+      "asset": "brush-textures/fc1758602b5f048e88b693db0f8d066b286d24dbc4c42a8ea58e01ed80355579.png",
+      "size": 689770,
+      "sha256": "fc1758602b5f048e88b693db0f8d066b286d24dbc4c42a8ea58e01ed80355579",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WigglyGraphite/main.png"
+    },
+    {
+      "brush": "WigglyGraphite",
+      "aliases": [
+        "WigglyGraphite",
+        "WigglyGraphiteSingleSided"
+      ],
+      "guid": "e814fef1-97fd-7194-4a2f-50c2bb918be2",
+      "slot": "MainTex",
+      "asset": "brush-textures/fc1758602b5f048e88b693db0f8d066b286d24dbc4c42a8ea58e01ed80355579.png",
+      "size": 689770,
+      "sha256": "fc1758602b5f048e88b693db0f8d066b286d24dbc4c42a8ea58e01ed80355579",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/WigglyGraphite/main.png"
+    },
+    {
+      "brush": "Wind",
+      "aliases": [
+        "Wind",
+        "Wind_16"
+      ],
+      "guid": "7136a729-1aab-bd24-f8b2-ca88b6adfb67",
+      "slot": "AlphaMask",
+      "asset": "brush-textures/efcf85a9c0aad21ce946fb5e9c0496c309d8ecc9eae62f5a49326047843761d2.png",
+      "size": 1033,
+      "sha256": "efcf85a9c0aad21ce946fb5e9c0496c309d8ecc9eae62f5a49326047843761d2",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/Brushes/Basic/Comet/gradient.png"
+    },
+    {
+      "brush": "Wind",
+      "aliases": [
+        "Wind",
+        "Wind_16"
+      ],
+      "guid": "7136a729-1aab-bd24-f8b2-ca88b6adfb67",
+      "slot": "MainTex",
+      "asset": "brush-textures/c54f27d1b50aae084c53f6f33ff3f00eb31647ed0e704b6cd2f2ea888b7eaacf.png",
+      "size": 110351,
+      "sha256": "c54f27d1b50aae084c53f6f33ff3f00eb31647ed0e704b6cd2f2ea888b7eaacf",
+      "mimeType": "image/png",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/Wind/main.png"
+    }
+  ],
+  "unsupported": [
+    {
+      "brush": "_16",
+      "slot": "_MainTex",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/LeakyPen/main.psd"
+    },
+    {
+      "brush": "_16",
+      "slot": "_SecondaryTex",
+      "source": "Assets/TiltBrush/Assets/X/Brushes/LeakyPen/main.psd"
+    }
+  ]
+}

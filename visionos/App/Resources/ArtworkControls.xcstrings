@@ -1,0 +1,134 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Triangles: %lld": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "三角面 %lld"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "三角面 %lld"
+          }
+        }
+      }
+    },
+    "Splats: %lld": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯点 %lld"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯點 %lld"
+          }
+        }
+      }
+    },
+    "Hide controls": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐藏菜单"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隱藏選單"
+          }
+        }
+      }
+    },
+    "Show controls": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示菜单"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示選單"
+          }
+        }
+      }
+    },
+    "Gaussian artwork requires visionOS 27": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯作品需要 visionOS 27"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯作品需要 visionOS 27"
+          }
+        }
+      }
+    },
+    "Open TILT, USDZ, and Gaussian artwork": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "支持 TILT、USDZ 和高斯作品"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "支援 TILT、USDZ 和高斯作品"
+          }
+        }
+      }
+    },
+    "Gaussian artwork requires a Vision Pro device": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯作品需要在 Vision Pro 真机上显示"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高斯作品需要在 Vision Pro 實機上顯示"
+          }
+        }
+      }
+    },
+    "Rendering quality reduced": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "系统已降低渲染质量"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "系統已降低渲染品質"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

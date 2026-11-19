@@ -11,3 +11,21 @@ This source edition contains text files. The project owner approved Apache Licen
 | Open Brush icons, atlases and Toolkit brush images | No PNG, JPEG, atlas or embedded texture payload | These assets and the 17 texture PNGs found with machine paths in metadata are excluded. If cleared for a future art distribution, remove incidental metadata from candidate copies and revalidate all hashes and lookup behavior. Preserve attribution metadata. |
 | PICO SDK, scaffold, reference model, launcher, shader output, screenshots | None of these artifacts are distributed | The box USDZ contains a PICO rights reservation. Template and generated-shader redistribution require separate clearance. The source-only selection makes those materials unnecessary for desktop tests. Android and PICO API calls in the reference code show integration points. |
 | Build dependencies | Maven coordinates only | Kotlin JVM 2.1.20, JSON-java 20240303 and JUnit 4.13.2 are resolved by the build. Gradle 8.13 and JDK 17 are installed separately. No wrapper JAR, SDK or dependency binaries are included. |
+
+## visionOS M05 addition
+
+The M05 snapshot adds project-authored Swift, SwiftUI and RealityKit integration source and review tools under the root Apache License 2.0, consistent with the owner's approval for project-authored contributions. Upstream-derived algorithms and metadata retain their existing rights and credits. This statement gives no new permission for third-party images or artwork. [visionOS notice](../visionos/NOTICE)
+
+| Addition | Provenance and scope |
+| --- | --- |
+| Runtime Swift sources and localization catalogs | Exported from committed development source at `cdc7c4a`. Local uncommitted translation edits are excluded. The manifest records hashes for all 36 runtime Swift files. |
+| Brush menu, geometry, rendering and texture records | Text-only references to the pinned Open Brush and Toolkit material already described above. Geometry, rendering and texture catalogs match the existing PICO review files. The visionOS menu retains its original development ordering. No referenced image payload is included. |
+| Palette target coordinates | Project-authored JSON layout data from the same committed source, included to keep the native controls inspectable. Models and baked images remain excluded. |
+| JSON and TILT test input | The included JSON fixture is a synthetic two-point edit case. The Swift test helper generates five mathematical TILT paths and ZIP records in memory. It contains no external painting, thumbnail or texture. |
+| Xcode build definitions and review inventory | A generated, reproducible project, a shared scheme, SHA-256 file inventory and verification scripts. Build output, signing overrides, account data, caches and device identifiers are excluded. |
+
+The included Apple-framework calls require Xcode and the relevant SDK to compile. The app's resource list has been reduced to the included text files. The model, icon and texture dependencies and possible separately authored replacements are documented in the [visionOS README](../visionos/README.md#resources-and-reproducibility).
+
+## M06 common entry
+
+The [root notice](../NOTICE) links the existing platform attributions and accompanying license text. M06 adds navigation, protocol and compatibility documentation. It introduces no image, model, painting, SDK binary or new material license. The [structure and publication review](STRUCTURE-REVIEW.md#validation-and-publication-status) records the selected-tree and history checks for this round.
