@@ -1,0 +1,2689 @@
+{
+  "version": 1,
+  "source": "https://docs.openbrush.app/user-guide/brushes/brush-list",
+  "entries": [
+    {
+      "guid": "89d104cd-d012-426b-b5b3-bbaee63ac43c",
+      "name": "Bubbles",
+      "aliases": [
+        "Bubbles"
+      ],
+      "officialName": "Bubbles",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Bubbles/Bubbles.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Bubbles/Bubbles.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "eba3f993-f9a1-4d35-b84e-bb08f48981a4",
+      "name": "BubbleWand",
+      "aliases": [
+        "Bubble Wand",
+        "BubbleWand",
+        "BubbleWand_16"
+      ],
+      "officialName": "Bubble Wand",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/BubbleWand/BubbleWand.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/BubbleWand/BubbleWand_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "61d2ef63-ed60-49b3-85fb-7267b7d234f2",
+      "name": "CandyCane",
+      "aliases": [
+        "CandyCane",
+        "CandyCane_16"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/CandyCane/CandyCane_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "700f3aa8-9a7c-2384-8b8a-ea028905dd8c",
+      "name": "CelVinyl",
+      "aliases": [
+        "Cel Vinyl",
+        "CelVinyl",
+        "CelVinyl_16"
+      ],
+      "officialName": "Cel Vinyl",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.554,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/CelVinyl/CelVinyl.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/CelVinyl/CelVinyl_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "fde6e778-0f7a-e584-38d6-89d44cee59f6",
+      "name": "Charcoal",
+      "aliases": [
+        "Charcoal",
+        "Charcoal_16"
+      ],
+      "officialName": "Charcoal",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Charcoal/Charcoal_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0f0ff7b2-a677-45eb-a7d6-0cd7206f4816",
+      "name": "ChromaticWave",
+      "aliases": [
+        "Chromatic Wave",
+        "ChromaticWave"
+      ],
+      "officialName": "Chromatic Wave",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/ChromaticWave/ChromaticWave.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ChromaticWave/ChromaticWave.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "1161af82-50cf-47db-9706-0c3576d43c43",
+      "name": "CoarseBristles",
+      "aliases": [
+        "Coarse Bristles",
+        "CoarseBristles",
+        "CoarseBristles_15"
+      ],
+      "officialName": "Coarse Bristles",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.25,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/CoarseBristles/CoarseBristles_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "79168f10-6961-464a-8be1-57ed364c5600",
+      "name": "CoarseBristles",
+      "aliases": [
+        "Coarse Bristles",
+        "CoarseBristles",
+        "CoarseBristles_0"
+      ],
+      "officialName": "Coarse Bristles",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.25,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/CoarseBristlesSingleSided/CoarseBristles_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "1caa6d7d-f015-3f54-3a4b-8b5354d39f81",
+      "name": "Comet",
+      "aliases": [
+        "Comet",
+        "Comet_16"
+      ],
+      "officialName": "Comet",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Comet/Comet.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Comet/Comet_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "7ae1f880-a517-44a0-99f9-1cab654498c6",
+      "name": "ConcaveHull",
+      "aliases": [
+        "Concave Hull",
+        "ConcaveHull",
+        "ConcaveHull_16"
+      ],
+      "officialName": "Concave Hull",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ConcaveHull/ConcaveHull_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "6a1cf9f9-032c-45ec-311e-a6680bee32e9",
+      "name": "DanceFloor",
+      "aliases": [
+        "Dance Floor",
+        "DanceFloor",
+        "DanceFloor_16"
+      ],
+      "officialName": "Dance Floor",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/DanceFloor/DanceFloor.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DanceFloor/DanceFloor_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c8313697-2563-47fc-832e-290f4c04b901",
+      "name": "DiamondHull",
+      "aliases": [
+        "Diamond",
+        "DiamondHull",
+        "DiamondHull_16"
+      ],
+      "officialName": "Diamond",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/DiamondHull/DiamondHull.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DiamondHull/DiamondHull_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "30cb9af6-be41-4872-8f3e-cbff63fe3db8",
+      "name": "Digital",
+      "aliases": [
+        "Digital",
+        "Digital_16"
+      ],
+      "officialName": "Digital",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Digital/Digital.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Digital/Digital_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4391aaaa-df73-4396-9e33-31e4e4930b27",
+      "name": "Disco",
+      "aliases": [
+        "Disco"
+      ],
+      "officialName": "Disco",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Disco/Disco.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Disco/Disco.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "d1d991f2-e7a0-4cf1-b328-f57e915e6260",
+      "name": "DotMarker",
+      "aliases": [
+        "Dot Marker",
+        "DotMarker"
+      ],
+      "officialName": "Dot Marker",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DotMarker/DotMarker.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "6a1cf9f9-032c-45ec-9b1d-a6680bee30f7",
+      "name": "Dots",
+      "aliases": [
+        "Dots"
+      ],
+      "officialName": "Dots",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Dots/Dots.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Dots/Dots.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f4a0550c-332a-4e1a-9793-b71508f4a454",
+      "name": "DoubleFlat",
+      "aliases": [
+        "Double Flat",
+        "DoubleFlat",
+        "DoubleFlat_16"
+      ],
+      "officialName": "Double Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DoubleFlat/DoubleFlat_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0d3889f3-3ede-470c-8af4-f44813306126",
+      "name": "DoubleTaperedFlat",
+      "aliases": [
+        "DoubleTaperedFlat",
+        "Pinched Flat"
+      ],
+      "officialName": "Pinched Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/DoubleTaperedFlat/DiffuseNoTextureDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DoubleTaperedFlat/DoubleTaperedFlat.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0d3889f3-3ede-470c-8af4-de4813306126",
+      "name": "DoubleTaperedMarker",
+      "aliases": [
+        "DoubleTaperedMarker",
+        "Pinched Marker"
+      ],
+      "officialName": "Pinched Marker",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/DoubleTaperedMarker/DoubleTaperedMarker.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DoubleTaperedMarker/DoubleTaperedMarker.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "492b36ff-b337-436a-ba5f-1e87ee86747e",
+      "name": "Drafting",
+      "aliases": [
+        "Drafting",
+        "Drafting_16"
+      ],
+      "officialName": "Drafting",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Drafting/Drafting.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Drafting/Drafting_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "725f4c6a-6427-6524-29ab-da371924adab",
+      "name": "DryBrush",
+      "aliases": [
+        "",
+        "Dry Brush",
+        "DryBrush",
+        "_16"
+      ],
+      "officialName": "Dry Brush",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DryBrush/_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d0262945-853c-4481-9cbd-88586bed93cb",
+      "name": "DuctTape",
+      "aliases": [
+        "Duct Tape",
+        "DuctTape",
+        "DuctTape_15"
+      ],
+      "officialName": "Duct Tape",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTape/DuctTape_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "84d5bbb2-6634-8434-f8a7-681b576b4664",
+      "name": "DuctTapeGeometry",
+      "aliases": [
+        "",
+        "Duct Tape (Geometry)",
+        "DuctTapeGeometry",
+        "_16"
+      ],
+      "officialName": "Duct Tape (Geometry)",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTapeGeometry/_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "3ca16e2f-bdcd-4da2-8631-dcef342f40f1",
+      "name": "DuctTape",
+      "aliases": [
+        "Duct Tape",
+        "DuctTape",
+        "DuctTape_0"
+      ],
+      "officialName": "Duct Tape",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/DuctTapeSingleSided/DuctTape_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f6e85de3-6dcc-4e7f-87fd-cee8c3d25d51",
+      "name": "Electricity",
+      "aliases": [
+        "Electricity"
+      ],
+      "officialName": "Electricity",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Electricity/Electricity.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Electricity/Electricity.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "02ffb866-7fb2-4d15-b761-1012cefb1360",
+      "name": "Embers",
+      "aliases": [
+        "Embers"
+      ],
+      "officialName": "Embers",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Embers/Embers.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Embers/Embers.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4391ffaa-df73-4396-9e33-31e4e4930b27",
+      "name": "FacetedTube",
+      "aliases": [
+        "Faceted Tube",
+        "FacetedTube",
+        "FacetedTube_16"
+      ],
+      "officialName": "Faceted Tube",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Special/Faceted.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/FacetedTube/FacetedTube_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d9cc5e99-ace1-4d12-96e0-4a7c18c99cfc",
+      "name": "Fairy",
+      "aliases": [
+        "Fairy",
+        "Fairy_16"
+      ],
+      "officialName": "Fairy",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Fairy/Fairy.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Fairy/Fairy_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "a555b809-2017-46cb-ac26-e63173d8f45e",
+      "name": "Feather",
+      "aliases": [
+        "Feather",
+        "Feather_16"
+      ],
+      "officialName": "Feather",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/SoftHighlighter/SoftHighlighter.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Feather/Feather_16.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "cb92b597-94ca-4255-b017-0e3f42f12f9e",
+      "name": "Fire",
+      "aliases": [
+        "Fire"
+      ],
+      "officialName": "Fire",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Fire/Fire.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Fire/Fire.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "53d753ef-083c-45e1-98e7-4459b4471219",
+      "name": "Fire2",
+      "aliases": [
+        "Fire2",
+        "Fire2_16"
+      ],
+      "officialName": "Fire2",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Fire 2/Fire2.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Fire2/Fire2_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2d35bcf0-e4d8-452c-97b1-3311be063130",
+      "name": "Flat",
+      "aliases": [
+        "Flat",
+        "Flat_15"
+      ],
+      "officialName": "Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseOpaqueDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Flat/Flat_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "55303bc4-c749-4a72-98d9-d23e68e76e18",
+      "name": "FlatDeprecated",
+      "aliases": [
+        "FlatDeprecated"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/FlatDeprecated/FlatDeprecated.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "280c0a7a-aad8-416c-a7d2-df63d129ca70",
+      "name": "Flat",
+      "aliases": [
+        "Flat",
+        "Flat_0"
+      ],
+      "officialName": "Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseOpaqueSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/FlatSingleSided/Flat_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "1b897b7e-9b76-425a-b031-a867c48df409",
+      "name": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "officialName": "Gouache",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Gouache/Gouache_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4465b5ef-3605-bec4-2b3e-6b04508ddb6b",
+      "name": "Gouache",
+      "aliases": [
+        "Gouache",
+        "Gouache_16"
+      ],
+      "officialName": "Gouache",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/GouacheSingleSided/Gouache_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "99aafe96-1645-44cd-99bd-979bc6ef37c5",
+      "name": "Guts",
+      "aliases": [
+        "Guts",
+        "Guts_16"
+      ],
+      "officialName": "Guts",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.3,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Guts/Guts_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "cf019139-d41c-4eb0-a1d0-5cf54b0a42f3",
+      "name": "Highlighter",
+      "aliases": [
+        "Highlighter"
+      ],
+      "officialName": "Highlighter",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.12,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Highlighter/AdditiveCutout.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Highlighter/Highlighter.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "20a0bf1a-a96e-44e5-84ac-9823d2d65023",
+      "name": "HolidayTree",
+      "aliases": [
+        "HolidayTree",
+        "HolidayTree_16"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/HolidayTree/HolidayTree_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "dce872c2-7b49-4684-b59b-c45387949c5c",
+      "name": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_15"
+      ],
+      "officialName": "Hypercolor",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/HypercolorDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/Hypercolor_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "e8ef32b1-baa8-460a-9c2c-9cf8506794f5",
+      "name": "Hypercolor",
+      "aliases": [
+        "Hypercolor",
+        "Hypercolor_0"
+      ],
+      "officialName": "Hypercolor",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Hypercolor/HypercolorSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/HypercolorSingleSided/Hypercolor_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+      "name": "HyperGrid",
+      "aliases": [
+        "Hyper Grid",
+        "HyperGrid"
+      ],
+      "officialName": "Hyper Grid",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/HyperGrid/HyperGrid.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/HyperGrid/HyperGrid.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+      "name": "Icing",
+      "aliases": [
+        "Icing",
+        "Icing_16"
+      ],
+      "officialName": "Icing",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Icing/Icing_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f5c336cf-5108-4b40-ade9-c687504385ab",
+      "name": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_15"
+      ],
+      "officialName": "Ink",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Ink/Ink_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb",
+      "name": "InkGeometry",
+      "aliases": [
+        "",
+        "Ink (Geometry)",
+        "InkGeometry",
+        "_16"
+      ],
+      "officialName": "Ink (Geometry)",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/InkGeometry/_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c0012095-3ffd-4040-8ee1-fc180d346eaa",
+      "name": "Ink",
+      "aliases": [
+        "Ink",
+        "Ink_0"
+      ],
+      "officialName": "Ink",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/InkSingleSided/Ink_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f8ba3d18-01fc-4d7b-b2d9-b99d10b8e7cf",
+      "name": "KeijiroTube",
+      "aliases": [
+        "Keijiro Tube",
+        "KeijiroTube",
+        "KeijiroTube_16"
+      ],
+      "officialName": "Keijiro Tube",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/KeijiroTube/KeijiroTube.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/KeijiroTube/KeijiroTube_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c",
+      "name": "Lacewing",
+      "aliases": [
+        "Lacewing",
+        "Lacewing_16"
+      ],
+      "officialName": "Lacewing",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.9,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Lacewing/Lacewing.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Lacewing/Lacewing_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "ddda8745-4bb5-ac54-88b6-d1480370583e",
+      "name": "LeakyPen",
+      "aliases": [
+        "",
+        "Leaky Pen",
+        "LeakyPen",
+        "_16"
+      ],
+      "officialName": "Leaky Pen",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/LeakyPen/LeakyPen.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/LeakyPen/_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "7259cce5-41c1-ec74-c885-78af28a31d95",
+      "name": "Leaves2",
+      "aliases": [
+        "Leaves2",
+        "Leaves2_16"
+      ],
+      "officialName": "Leaves2",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Leaves2/Leaves2_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "ea19de07-d0c0-4484-9198-18489a3c1487",
+      "name": "Leaves",
+      "aliases": [
+        "Leaves",
+        "Leaves_0"
+      ],
+      "officialName": "Leaves",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/LeavesSingleSided/Leaves_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+      "name": "Light",
+      "aliases": [
+        "Light"
+      ],
+      "officialName": "Light",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Bloom.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Light/Light.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4391aaaa-df81-4396-9e33-31e4e4930b27",
+      "name": "LightWire",
+      "aliases": [
+        "Light Wire",
+        "LightWire"
+      ],
+      "officialName": "Light Wire",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/LightWire/LightWire.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/LightWire/LightWire.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "62fef968-e842-3224-4a0e-1fdb7cfb745c",
+      "name": "Wire (Lit)",
+      "aliases": [
+        "Wire (Lit)",
+        "Wire (Lit)_16"
+      ],
+      "officialName": "Wire (Lit)",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/LitWire/Wire (Lit)_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d381e0f5-3def-4a0d-8853-31e9200bcbda",
+      "name": "Lofted",
+      "aliases": [
+        "Lofted",
+        "Lofted_16"
+      ],
+      "officialName": "Lofted",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseOpaqueSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Lofted/Lofted_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c5da2e70-a6e4-63a4-898c-5cfedef09c97",
+      "name": "Lofted (Hue Shift)",
+      "aliases": [
+        "Lofted (Hue Shift)",
+        "Lofted (Hue Shift)_16"
+      ],
+      "officialName": "Lofted (Hue Shift)",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/LoftedHueShift/LoftedHueShift.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/LoftedHueShift/Lofted (Hue Shift)_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c86c058d-1bda-2e94-08db-f3d6a96ac4a1",
+      "name": "Marbled Rainbow",
+      "aliases": [
+        "Marbled Rainbow",
+        "Marbled Rainbow_16"
+      ],
+      "officialName": "Marbled Rainbow",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/MarbledRainbow/MarbledRainbow.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/MarbledRainbow/Marbled Rainbow_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "429ed64a-4e97-4466-84d3-145a861ef684",
+      "name": "Marker",
+      "aliases": [
+        "Marker"
+      ],
+      "officialName": "Marker",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.067,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Marker/Marker.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "79348357-432d-4746-8e29-0e25c112e3aa",
+      "name": "MatteHull",
+      "aliases": [
+        "Matte Hull",
+        "MatteHull",
+        "MatteHull_16"
+      ],
+      "officialName": "Matte Hull",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/MatteHull/MatteHull_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f28c395c-a57d-464b-8f0b-558c59478fa3",
+      "name": "Muscle",
+      "aliases": [
+        "Muscle",
+        "Muscle_16"
+      ],
+      "officialName": "Muscle",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.3,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Muscle/Muscle_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "8e58ceea-7830-49b4-aba9-6215104ab52a",
+      "name": "MylarTube",
+      "aliases": [
+        "Mylar Tube",
+        "MylarTube",
+        "MylarTube_16"
+      ],
+      "officialName": "Mylar Tube",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/MylarTube/MylarTube.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/MylarTube/MylarTube_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+      "name": "NeonPulse",
+      "aliases": [
+        "Neon Pulse",
+        "NeonPulse"
+      ],
+      "officialName": "Neon Pulse",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformPulse/NeonPulse.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/NeonPulse/NeonPulse.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "f72ec0e7-a844-4e38-82e3-140c44772699",
+      "name": "OilPaint",
+      "aliases": [
+        "Oil Paint",
+        "OilPaint",
+        "OilPaint_15"
+      ],
+      "officialName": "Oil Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaint/OilPaint_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c515dad7-4393-4681-81ad-162ef052241b",
+      "name": "OilPaint",
+      "aliases": [
+        "Oil Paint",
+        "OilPaint",
+        "OilPaint_0"
+      ],
+      "officialName": "Oil Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/OilPaintSingleSided/OilPaint_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f1114e2e-eb8d-4fde-915a-6e653b54e9f5",
+      "name": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_15"
+      ],
+      "officialName": "Paper",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.16,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Paper/Paper_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "759f1ebd-20cd-4720-8d41-234e0da63716",
+      "name": "Paper",
+      "aliases": [
+        "Paper",
+        "Paper_0"
+      ],
+      "officialName": "Paper",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.16,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/PaperSingleSided/Paper_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "e0abbc80-0f80-e854-4970-8924a0863dcc",
+      "name": "Petal",
+      "aliases": [
+        "Petal",
+        "Petal_16"
+      ],
+      "officialName": "Petal",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.83,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Petal/Petal.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Petal/Petal_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "22d4f434-23e4-49d9-a9bd-05798aa21e58",
+      "name": "Braid3",
+      "aliases": [
+        "Braid3",
+        "Braid3_16"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Plait/Braid3_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c33714d1-b2f9-412e-bd50-1884c9d46336",
+      "name": "Plasma",
+      "aliases": [
+        "Plasma"
+      ],
+      "officialName": "Plasma",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Plasma/Plasma.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Plasma/Plasma.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "abfbb2aa-70b4-4a5c-8126-8eedda2b3628",
+      "name": "Race",
+      "aliases": [
+        "Race",
+        "Race_16"
+      ],
+      "officialName": "Race",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Race/Race.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Race/Race_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "03a529e1-f519-3dd4-582d-2d5cd92c3f4f",
+      "name": "Rain",
+      "aliases": [
+        "Rain",
+        "Rain_16"
+      ],
+      "officialName": "Rain",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Rain/Rain.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Rain/Rain_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "ad1ad437-76e2-450d-a23a-e17f8310b960",
+      "name": "Rainbow",
+      "aliases": [
+        "Rainbow"
+      ],
+      "officialName": "Rainbow",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Rainbow/Rainbow.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Rainbow/Rainbow.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "a8147ce1-005e-abe4-88e8-09a1eaadcc89",
+      "name": "Rising Bubbles",
+      "aliases": [
+        "Rising Bubbles",
+        "Rising Bubbles_16"
+      ],
+      "officialName": "Rising Bubbles",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/RisingBubbles/RisingBubbles.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/RisingBubbles/Rising Bubbles_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "faaa4d44-fcfb-4177-96be-753ac0421ba3",
+      "name": "ShinyHull",
+      "aliases": [
+        "Shiny Hull",
+        "ShinyHull",
+        "ShinyHull_16"
+      ],
+      "officialName": "Shiny Hull",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ShinyHull/ShinyHull_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f0a2298a-be80-432c-9fee-a86dcc06f4f9",
+      "name": "SingleSided",
+      "aliases": [
+        "Single Sided",
+        "SingleSided",
+        "SingleSided_16"
+      ],
+      "officialName": "Single Sided",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/SingleSided/SingleSided_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "70d79cca-b159-4f35-990c-f02193947fe8",
+      "name": "Smoke",
+      "aliases": [
+        "Smoke"
+      ],
+      "officialName": "Smoke",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Smoke/Smoke.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Smoke/Smoke.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "355b3579-bf1d-4ff5-a200-704437fe684b",
+      "name": "SmoothHull",
+      "aliases": [
+        "Smooth Hull",
+        "SmoothHull",
+        "SmoothHull_16"
+      ],
+      "officialName": "Smooth Hull",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/SmoothHull/SmoothHull_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d902ed8b-d0d1-476c-a8de-878a79e3a34c",
+      "name": "Snow",
+      "aliases": [
+        "Snow"
+      ],
+      "officialName": "Snow",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Snow/Snow.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Snow/Snow.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2b65cd94-9259-4f10-99d2-d54b6664ac33",
+      "name": "Snowflake",
+      "aliases": [
+        "Snowflake",
+        "Snowflake_16"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Snowflake/Snowflake_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "accb32f5-4509-454f-93f8-1df3fd31df1b",
+      "name": "SoftHighlighter",
+      "aliases": [
+        "Soft Highlighter",
+        "SoftHighlighter"
+      ],
+      "officialName": "Soft Highlighter",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/SoftHighlighter/SoftHighlighter.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/SoftHighlighter/SoftHighlighter.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "bdf65db2-1fb7-4202-b5e0-c6b5e3ea851e",
+      "name": "Space",
+      "aliases": [
+        "Space",
+        "Space_16"
+      ],
+      "officialName": "Space",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Space/Space.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Space/Space_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "50e99447-3861-05f4-697d-a1b96e771b98",
+      "name": "Sparks",
+      "aliases": [
+        "Sparks",
+        "Sparks_16"
+      ],
+      "officialName": "Sparks",
+      "selfLit": false,
+      "officialSelfLit": "",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Sparks/Sparks.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Sparks/Sparks_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "cf7f0059-7aeb-53a4-2b67-c83d863a9ffa",
+      "name": "Spikes",
+      "aliases": [
+        "Spikes",
+        "Spikes_16"
+      ],
+      "officialName": "Spikes",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseOpaqueSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Spikes/Spikes_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "8dc4a70c-d558-4efd-a5ed-d4e860f40dc3",
+      "name": "Splatter",
+      "aliases": [
+        "Splatter",
+        "Splatter_15"
+      ],
+      "officialName": "Splatter",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Splatter/Splatter_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "7a1c8107-50c5-4b70-9a39-421576d6617e",
+      "name": "Splatter",
+      "aliases": [
+        "Splatter",
+        "Splatter_0"
+      ],
+      "officialName": "Splatter",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/SplatterSingleSided/Splatter_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d3f3b18a-da03-f694-b838-28ba8e749a98",
+      "name": "3D Printing Brush",
+      "aliases": [
+        "3D Printing Brush",
+        "3D Printing Brush_16"
+      ],
+      "officialName": "3D Printing Brush",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": null,
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Square3DPrintBrush/3D Printing Brush_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa",
+      "name": "SquarePaper",
+      "aliases": [
+        "SquarePaper",
+        "SquarePaper_16",
+        "Watercolor Paper"
+      ],
+      "officialName": "Watercolor Paper",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.16,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/SquarePaper/SquarePaper_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0eb4db27-3f82-408d-b5a1-19ebd7d5b711",
+      "name": "Stars",
+      "aliases": [
+        "Stars"
+      ],
+      "officialName": "Stars",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Stars/Stars.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Stars/Stars.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "44bb800a-fbc3-4592-8426-94ecb05ddec3",
+      "name": "Streamers",
+      "aliases": [
+        "Streamers"
+      ],
+      "officialName": "Streamers",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Streamers/Streamers.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Streamers/Streamers.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0077f88c-d93a-42f3-b59b-b31c50cdb414",
+      "name": "Taffy",
+      "aliases": [
+        "Taffy"
+      ],
+      "officialName": "Taffy",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Taffy/Taffy.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "b468c1fb-f254-41ed-8ec9-57030bc5660c",
+      "name": "TaperedFlat",
+      "aliases": [
+        "Tapered Flat",
+        "TaperedFlat",
+        "TaperedFlat_15"
+      ],
+      "officialName": "Tapered Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.067,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedFlat/TaperedFlat_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c8ccb53d-ae13-45ef-8afb-b730d81394eb",
+      "name": "TaperedFlat",
+      "aliases": [
+        "Tapered Flat",
+        "TaperedFlat",
+        "TaperedFlat_0"
+      ],
+      "officialName": "Tapered Flat",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.067,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedFlatSingleSided/TaperedFlat_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "3d9755da-56c7-7294-9b1d-5ec349975f52",
+      "name": "TaperedHueShift",
+      "aliases": [
+        "Tapered Highlighter",
+        "TaperedHueShift",
+        "TaperedHueShift_16"
+      ],
+      "officialName": "Tapered Highlighter",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/TaperedHueShift/TaperedHueShift.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedHueShift/TaperedHueShift_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d90c6ad8-af0f-4b54-b422-e0f92abe1b3c",
+      "name": "TaperedMarker",
+      "aliases": [
+        "Tapered Marker",
+        "TaperedMarker"
+      ],
+      "officialName": "Tapered Marker",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.067,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedMarker/TaperedMarker.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0",
+      "name": "TaperedMarker_Flat",
+      "aliases": [
+        "TaperedMarker_Flat"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/DiffuseSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedMarker_Flat/TaperedMarker_Flat.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Lambert",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "9568870f-8594-60f4-1b20-dfbc8a5eac0e",
+      "name": "TaperedWire",
+      "aliases": [
+        "Tapered Wire",
+        "TaperedWire",
+        "TaperedWire_16"
+      ],
+      "officialName": "Tapered Wire",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TaperedWire/TaperedWire_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "39ee7377-7a9e-47a7-a0f8-0c77712f75d3",
+      "name": "ThickGeometry",
+      "aliases": [
+        "ThickGeometry",
+        "ThickGeometry_16"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.2,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ThickGeometry/ThickGeometry_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "75b32cf0-fdd6-4d89-a64b-e2a00b247b0f",
+      "name": "ThickPaint",
+      "aliases": [
+        "Thick Paint",
+        "ThickPaint",
+        "ThickPaint_15"
+      ],
+      "officialName": "Thick Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaint/ThickPaint_15.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "fdf0326a-c0d1-4fed-b101-9db0ff6d071f",
+      "name": "ThickPaint",
+      "aliases": [
+        "Thick Paint",
+        "ThickPaint",
+        "ThickPaint_0"
+      ],
+      "officialName": "Thick Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/ThickPaintSingleSided/ThickPaint_0.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4391385a-df73-4396-9e33-31e4e4930b27",
+      "name": "Toon",
+      "aliases": [
+        "Toon"
+      ],
+      "officialName": "Toon",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Toon/Toon.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Toon/Toon.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "c1c9b26d-673a-4dc6-b373-51715654ab96",
+      "name": "TubeAdditive",
+      "aliases": [
+        "Tube (Highlighter)",
+        "TubeAdditive",
+        "TubeAdditive_16"
+      ],
+      "officialName": "Tube (Highlighter)",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Additive.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TubeAdditive/TubeAdditive_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "9871385a-df73-4396-9e33-31e4e4930b27",
+      "name": "TubeToonInverted",
+      "aliases": [
+        "Tube Toon Inverted",
+        "TubeToonInverted",
+        "TubeToonInverted_16"
+      ],
+      "officialName": "Tube Toon Inverted",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/TubeToonInverted/TubeToonInverted.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/TubeToonInverted/TubeToonInverted_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "a8fea537-da7c-4d4b-817f-24f074725d6d",
+      "name": "UnlitHull",
+      "aliases": [
+        "Unlit Hull",
+        "UnlitHull",
+        "UnlitHull_16"
+      ],
+      "officialName": "Unlit Hull",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/UnlitHull/UnlitHull_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d229d335-c334-495a-a801-660ac8a87360",
+      "name": "VelvetInk",
+      "aliases": [
+        "Velvet Ink",
+        "VelvetInk"
+      ],
+      "officialName": "Velvet Ink",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/VelvetInk/VelvetInk.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/VelvetInk/VelvetInk.mat",
+      "unityBlend": "Blend SrcAlpha One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+      "name": "Waveform",
+      "aliases": [
+        "Waveform"
+      ],
+      "officialName": "Waveform",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Waveform/Waveform.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Waveform/Waveform.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "d120944d-772f-4062-99c6-46a6f219eeaf",
+      "name": "WaveformFFT",
+      "aliases": [
+        "Waveform FFT",
+        "WaveformFFT",
+        "WaveformFFT_16"
+      ],
+      "officialName": "Waveform FFT",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformFFT/WaveformFFT.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformFFT/WaveformFFT_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "6a1cf9f9-032c-45ec-9b6e-a6680bee30f7",
+      "name": "WaveformParticles",
+      "aliases": [
+        "Waveform Particles",
+        "WaveformParticles",
+        "WaveformParticles_16"
+      ],
+      "officialName": "Waveform Particles",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformParticles/WaveformParticles.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformParticles/WaveformParticles_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "0f5820df-cb6b-4a6c-960e-56e4c8000eda",
+      "name": "WaveformTube",
+      "aliases": [
+        "Waveform Tube",
+        "WaveformTube",
+        "WaveformTube_16"
+      ],
+      "officialName": "Waveform Tube",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformTube/WaveformTube.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WaveformTube/WaveformTube_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "b67c0e81-ce6d-40a8-aeb0-ef036b081aa3",
+      "name": "WetPaint",
+      "aliases": [
+        "Wet Paint",
+        "WetPaint",
+        "WetPaint_16"
+      ],
+      "officialName": "Wet Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.3,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaint/WetPaint_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "dea67637-cd1a-27e4-c9b1-52f4bbcb84e5",
+      "name": "WetPaint",
+      "aliases": [
+        "Wet Paint",
+        "WetPaint",
+        "WetPaintSingleSided"
+      ],
+      "officialName": "Wet Paint",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.3,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/StandardSingleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WetPaintSingleSided/WetPaintSingleSided.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular",
+        "Lambert"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "5347acf0-a8e2-47b6-8346-30c70719d763",
+      "name": "WigglyGraphite",
+      "aliases": [
+        "Dr. Wigglez",
+        "WigglyGraphite",
+        "WigglyGraphite_16"
+      ],
+      "officialName": "Dr. Wigglez",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/WigglyGraphite/WigglyGraphiteDoubleSided.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WigglyGraphite/WigglyGraphite_16.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "e814fef1-97fd-7194-4a2f-50c2bb918be2",
+      "name": "WigglyGraphite",
+      "aliases": [
+        "Dr. Wigglez",
+        "WigglyGraphite",
+        "WigglyGraphiteSingleSided"
+      ],
+      "officialName": "Dr. Wigglez",
+      "selfLit": false,
+      "officialSelfLit": "No",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": null,
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/WigglyGraphiteSingleSided/WigglyGraphiteSingleSided.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "7136a729-1aab-bd24-f8b2-ca88b6adfb67",
+      "name": "Wind",
+      "aliases": [
+        "Wind",
+        "Wind_16"
+      ],
+      "officialName": "Wind",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/X/Brushes/Wind/Wind.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Wind/Wind_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "4391385a-cf83-4396-9e33-31e4e4930b27",
+      "name": "Wire",
+      "aliases": [
+        "Wire"
+      ],
+      "officialName": "Wire",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "MASK",
+      "depthWrite": true,
+      "cutoff": 0.067,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Shared/Shaders/Unlit.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Wire/Wire.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "2c1a6a63-6552-4d23-86d7-58f6fba8581b",
+      "name": "Wireframe",
+      "aliases": [
+        "Wireframe",
+        "Wireframe_16"
+      ],
+      "officialName": "Wireframe",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "ADD",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Basic/Wireframe/Wireframe.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Basic/Wireframe/Wireframe_16.mat",
+      "unityBlend": "Blend One One",
+      "unityLightingOff": true,
+      "surfaceLighting": [],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "232998f8-d357-47a2-993a-53415df9be10",
+      "name": "BlocksGem",
+      "aliases": [
+        "BlocksGem"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "ALPHA",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksGem/BlocksGem.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksGem/BlocksGem.mat",
+      "unityBlend": "Blend One SrcAlpha",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "3d813d82-5839-4450-8ddc-8e889ecd96c7",
+      "name": "BlocksGlass",
+      "aliases": [
+        "BlocksGlass"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "ALPHA",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksGlass/BlocksGlass.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksGlass/BlocksGlass.mat",
+      "unityBlend": "Blend One SrcAlpha",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": true
+    },
+    {
+      "guid": "0e87b49c-6546-3a34-3a44-8a556d7d6c3e",
+      "name": "BlocksBasic",
+      "aliases": [
+        "BlocksBasic",
+        "BlocksPaper"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksPaper/BlocksPaper.shader",
+      "material": "Assets/TiltBrush/Assets/Brushes/Blocks/BlocksPaper/BlocksPaper.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "StandardSpecular"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "f86a096c-2f4f-4f9d-ae19-81b99f2944e0",
+      "name": "PbrTemplate",
+      "aliases": [
+        "BasePbrOpaqueDoubleSided",
+        "PbrTemplate"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "OPAQUE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Materials/PbrOpaqueDoubleSided.shader",
+      "material": "Assets/TiltBrush/Materials/BasePbrOpaqueDoubleSided.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Standard"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "19826f62-42ac-4a9e-8b77-4231fbd0cfbf",
+      "name": "PbrTransparentTemplate",
+      "aliases": [
+        "BasePbrBlendDoubleSided",
+        "PbrTransparentTemplate"
+      ],
+      "officialName": null,
+      "selfLit": false,
+      "officialSelfLit": "unlisted",
+      "blend": "OPAQUE",
+      "depthWrite": false,
+      "cutoff": 0.5,
+      "shader": "Assets/TiltBrush/Materials/PbrBlendDoubleSided.shader",
+      "material": "Assets/TiltBrush/Materials/BasePbrBlendDoubleSided.mat",
+      "unityBlend": "Blend Off/default",
+      "unityLightingOff": false,
+      "surfaceLighting": [
+        "Standard"
+      ],
+      "hasEmissionCode": false
+    },
+    {
+      "guid": "",
+      "name": "Marker (Geometry)",
+      "aliases": [
+        "Marker (Geometry)"
+      ],
+      "officialName": "Marker (Geometry)",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "PRESERVE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": null,
+      "material": null,
+      "unityBlend": "not present in supplied package",
+      "unityLightingOff": null,
+      "surfaceLighting": [],
+      "hasEmissionCode": null
+    },
+    {
+      "guid": "",
+      "name": "TaperedMarkerGeo",
+      "aliases": [
+        "TaperedMarkerGeo"
+      ],
+      "officialName": "TaperedMarkerGeo",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "PRESERVE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": null,
+      "material": null,
+      "unityBlend": "not present in supplied package",
+      "unityLightingOff": null,
+      "surfaceLighting": [],
+      "hasEmissionCode": null
+    },
+    {
+      "guid": "",
+      "name": "Tube (Marker)",
+      "aliases": [
+        "Tube (Marker)"
+      ],
+      "officialName": "Tube (Marker)",
+      "selfLit": true,
+      "officialSelfLit": "Yes",
+      "blend": "PRESERVE",
+      "depthWrite": true,
+      "cutoff": 0.5,
+      "shader": null,
+      "material": null,
+      "unityBlend": "not present in supplied package",
+      "unityLightingOff": null,
+      "surfaceLighting": [],
+      "hasEmissionCode": null
+    }
+  ],
+  "unmatchedSelfLit": [
+    {
+      "name": "Marker (Geometry)",
+      "selfLit": "Yes",
+      "animated": "",
+      "type": "Flat"
+    },
+    {
+      "name": "TaperedMarkerGeo",
+      "selfLit": "Yes",
+      "animated": "",
+      "type": "Flat"
+    },
+    {
+      "name": "Tube (Marker)",
+      "selfLit": "Yes",
+      "animated": "",
+      "type": "Tube"
+    }
+  ]
+}

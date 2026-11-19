@@ -1,0 +1,29 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '2.1.20'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20240303'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+kotlin {
+    jvmToolchain(17)
+    sourceSets {
+        main.kotlin {
+            srcDir 'pico/app/src/main/java'
+            include '**/domain/drawing/**', '**/domain/model/**', '**/data/*.kt', '**/capture/CaptureProtocol.kt'
+            exclude '**/DocumentTree.kt', '**/DrawingWorkspaceFiles.kt', '**/ImportRequests.kt'
+        }
+        test.kotlin.srcDir 'pico/app/src/test/java'
+    }
+}
+
+test {
+    useJUnit()
+    workingDir file('pico/app')
+}

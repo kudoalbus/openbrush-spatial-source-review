@@ -1,0 +1,14 @@
+OpenBrush Spatial — PICO source review
+
+Open Brush and Tilt Brush
+Copyright Google Inc. / Tilt Brush Authors as in the upstream package.
+Environment lighting presets and scene-space light interpretation: Copyright 2020 The Tilt Brush Authors / Icosa Foundation contributors, Apache License 2.0.
+Brush geometry, pressure and frame behavior, menu order, brush and texture descriptors and lighting presets draw on the upstream projects. OpenBrush Spatial adapted these features to Kotlin and PICO Spatial SDK. The desktop review build and its synthetic test selection were prepared for this source edition.
+Pinned Open Brush source: https://github.com/icosa-foundation/open-brush/tree/6996c28dabda6ce7ff2b4728767ff99484445162
+
+Open Brush Toolkit
+TILT format reference parser: Copyright 2016 Google Inc. All rights reserved.
+The Kotlin reader follows the Toolkit format. Texture slot and resource records refer to the Open Brush Toolkit v24.0.0 experimental Unity package.
+Source: https://github.com/icosa-foundation/open-brush-toolkit
+
+Retain applicable upstream Apache License 2.0 terms and attribution with redistributed portions. The two upstream license copies accompany this edition. Original Toolkit textures and test artwork are excluded. See docs/ASSETS.md for component scope.
