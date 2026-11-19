@@ -1,4 +1,4 @@
-# OpenBrush Spatial — PICO source review
+# OpenBrush Spatial source review
 
 OpenBrush Spatial explores editing part of a spatial brush stroke while preserving the original stroke, its brush identity and whole-gesture history. This independent project draws on Open Brush and the original Tilt Brush work. The PICO implementation uses Kotlin and the PICO Spatial SDK. This source edition lets Open Brush maintainers run the portable algorithms on a desktop JVM and inspect their integration with the headset.
 
@@ -24,6 +24,12 @@ gradle test --tests '*LocalRecolorTest' --tests '*HandPaintingFlowTest'
 ```
 
 The first build resolves Kotlin 2.1.20, JSON-java and JUnit from the Gradle plugin portal and Maven Central. Results are written to `build/reports/tests/test/index.html`. No private fixture directory, PICO SDK, Android SDK or headset is required for the JVM suite. The source selection, platform dependencies and hardware evidence are described in [the engineering handoff](docs/ENGINEERING.md).
+
+## visionOS native source review
+
+The [visionOS directory](visionos/README.md) adds a SwiftUI, RealityKit and ARKit snapshot. The native drawing algorithms, v1–v3 codec, brush geometry and palm-menu math can be reviewed through the [English visionOS handoff](docs/VISIONOS.md). It identifies the transferable interval and contact algorithms and the Apple-specific integration. This snapshot excludes external artwork and uses generated TILT paths for its tests.
+
+On macOS with Xcode 27.0, run `swift test --package-path visionos --scratch-path visionos/.scratch/swift-build`. The review snapshot passed 39 Swift tests and an unsigned visionOS arm64 Release build. The [visionOS README](visionos/README.md) includes the full build, simulator and resource-dependency instructions. Windows' existing 119-test JVM result remains documented in the PICO engineering handoff. See the [M05 ledger](docs/PROGRESS.md) for this review's evidence and limits.
 
 ## Source and attribution
 

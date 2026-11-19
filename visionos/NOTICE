@@ -1,0 +1,29 @@
+OpenBrush Spatial visionOS source review
+
+Project-authored Swift source, source-review packaging, synthetic test data and
+accompanying documentation are offered under the repository's Apache License 2.0.
+This scope follows the project owner's Apache-2.0 approval recorded in docs/ASSETS.md
+and the M05 source-review task. Existing upstream rights and notices apply to
+upstream-derived portions. No license is granted here to excluded artwork.
+
+Open Brush and Tilt Brush
+Copyright Google Inc. / Tilt Brush Authors as in the upstream package.
+Open Brush / Icosa Foundation contributors.
+Brush identifiers, behavior, pressure, frames, geometry, menu records and rendering
+parameters draw on Open Brush and Tilt Brush. OpenBrush Spatial adapted portions
+of these algorithms and descriptors to Swift and RealityKit.
+Pinned reference: Open Brush 2.32.0, commit
+6996c28dabda6ce7ff2b4728767ff99484445162
+https://github.com/icosa-foundation/open-brush
+
+Open Brush Toolkit
+TILT format reference parser: Copyright 2016 Google Inc. All rights reserved.
+The Swift TILT importer follows the Toolkit format and the PICO implementation.
+The texture catalog contains references to the Toolkit v24.0.0 experimental
+package. It includes no texture image payloads.
+https://github.com/icosa-foundation/open-brush-toolkit
+
+Retain applicable upstream copyright, Apache License 2.0 and attribution notices
+when redistributing portions. ReviewResources/OPENBRUSH-LICENSE accompanies this
+snapshot. The existing PICO notices and two license copies remain in the repository.
+See docs/ASSETS.md and docs/VISIONOS.md for component scope and withheld resources.

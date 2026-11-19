@@ -1,0 +1,86 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Select a tool · pinch to begin · release to finish": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选工具 · 捏合开始 · 松开结束"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選工具 · 捏合開始 · 放開結束"
+          }
+        }
+      }
+    },
+    "Turn your supporting hand over for brushes": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "翻到手背查看笔刷"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "翻到手背查看筆刷"
+          }
+        }
+      }
+    },
+    "Allow accessory tracking to use the stylus": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请允许配件跟踪以使用空间笔"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請允許配件追蹤以使用空間筆"
+          }
+        }
+      }
+    },
+    "Stylus: tip or front button draws · rear button erases": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空间笔：笔尖或前键绘画 · 后键擦除"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空間筆：筆尖或前鍵繪畫 · 後鍵擦除"
+          }
+        }
+      }
+    },
+    "Spatial stylus tracking unavailable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法追踪空间笔"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法追蹤空間筆"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

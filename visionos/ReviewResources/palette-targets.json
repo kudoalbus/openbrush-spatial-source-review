@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "units": "meters",
+  "frontNormal": [
+    0,
+    1,
+    0
+  ],
+  "grip": [
+    -0.108,
+    0.018,
+    0.045
+  ],
+  "targets": [
+    {
+      "id": 0,
+      "kind": "COLOR",
+      "name": "ColorTarget_Vermilion",
+      "position": [
+        -0.092,
+        0.01,
+        -0.1
+      ],
+      "radius": 0.018,
+      "color": "#CD211C"
+    },
+    {
+      "id": 1,
+      "kind": "COLOR",
+      "name": "ColorTarget_Cobalt",
+      "position": [
+        -0.032,
+        0.01,
+        -0.116
+      ],
+      "radius": 0.018,
+      "color": "#0879CB"
+    },
+    {
+      "id": 2,
+      "kind": "COLOR",
+      "name": "ColorTarget_Yellow",
+      "position": [
+        0.032,
+        0.01,
+        -0.109
+      ],
+      "radius": 0.018,
+      "color": "#F6D514"
+    },
+    {
+      "id": 3,
+      "kind": "COLOR",
+      "name": "ColorTarget_Green",
+      "position": [
+        0.095,
+        0.01,
+        -0.073
+      ],
+      "radius": 0.018,
+      "color": "#087E46"
+    },
+    {
+      "id": 4,
+      "kind": "COLOR",
+      "name": "ColorTarget_White",
+      "position": [
+        0.119,
+        0.01,
+        -0.012
+      ],
+      "radius": 0.018,
+      "color": "#F2F1E9"
+    },
+    {
+      "id": 5,
+      "kind": "COLOR",
+      "name": "ColorTarget_Black",
+      "position": [
+        0.1,
+        0.01,
+        0.055
+      ],
+      "radius": 0.018,
+      "color": "#14191A"
+    },
+    {
+      "id": 6,
+      "kind": "COLOR",
+      "name": "ColorTarget_Crimson",
+      "position": [
+        0.065,
+        0.01,
+        0.105
+      ],
+      "radius": 0.018,
+      "color": "#B80E24"
+    },
+    {
+      "id": 7,
+      "kind": "COLOR",
+      "name": "ColorTarget_Orange",
+      "position": [
+        0.003,
+        0.01,
+        0.119
+      ],
+      "radius": 0.018,
+      "color": "#F67712"
+    },
+    {
+      "id": 20,
+      "kind": "BRUSH",
+      "name": "BrushHeadTarget_Round",
+      "position": [
+        -0.1398426,
+        0.015,
+        -0.0213246
+      ],
+      "radius": 0.014,
+      "brush": "spatial_tube"
+    },
+    {
+      "id": 21,
+      "kind": "BRUSH",
+      "name": "BrushHeadTarget_Flat",
+      "position": [
+        -0.1507666,
+        0.0162,
+        -0.0101481
+      ],
+      "radius": 0.014,
+      "brush": "spatial_flat"
+    },
+    {
+      "id": 22,
+      "kind": "BRUSH",
+      "name": "BrushHeadTarget_Fan",
+      "position": [
+        -0.1641699,
+        0.0174,
+        -0.0021106
+      ],
+      "radius": 0.014,
+      "brush": "spatial_fan"
+    },
+    {
+      "id": 8,
+      "kind": "ACTION",
+      "name": "Button_Undo",
+      "position": [
+        -0.03,
+        0.0033,
+        -0.024
+      ],
+      "radius": 0.011
+    },
+    {
+      "id": 9,
+      "kind": "ACTION",
+      "name": "Button_Redo",
+      "position": [
+        0.008,
+        0.0033,
+        -0.018
+      ],
+      "radius": 0.011
+    },
+    {
+      "id": 10,
+      "kind": "ACTION",
+      "name": "Button_Save",
+      "position": [
+        0.046,
+        0.0033,
+        -0.012
+      ],
+      "radius": 0.011
+    },
+    {
+      "id": 200,
+      "kind": "ACTION",
+      "name": "Button_BrushLibrary",
+      "position": [
+        0.065,
+        0.0033,
+        0.035
+      ],
+      "radius": 0.012
+    },
+    {
+      "id": 300,
+      "kind": "ACTION",
+      "name": "Button_ColorMode",
+      "position": [
+        0.028,
+        0.01,
+        0.045
+      ],
+      "radius": 0.0118
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSHandsTrackingUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追踪手部动作，用于在空间画室绘画、擦除和局部上色。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追蹤手部動作，用於在空間畫室繪畫、擦除和局部上色。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用麦克风中的声音，让空间画室的声音响应笔刷随声音变化。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用麥克風中的聲音，讓空間畫室的聲音響應筆刷隨聲音變化。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
