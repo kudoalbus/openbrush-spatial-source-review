@@ -25,3 +25,7 @@ The M05 snapshot adds project-authored Swift, SwiftUI and RealityKit integration
 | Xcode build definitions and review inventory | A generated, reproducible project, a shared scheme, SHA-256 file inventory and verification scripts. Build output, signing overrides, account data, caches and device identifiers are excluded. |
 
 The included Apple-framework calls require Xcode and the relevant SDK to compile. The app's resource list has been reduced to the included text files. The model, icon and texture dependencies and possible separately authored replacements are documented in the [visionOS README](../visionos/README.md#resources-and-reproducibility).
+
+## M06 common entry
+
+The [root notice](../NOTICE) links the existing platform attributions and accompanying license text. M06 adds navigation, protocol and compatibility documentation. It introduces no image, model, painting, SDK binary or new material license. The [structure and publication review](STRUCTURE-REVIEW.md#validation-and-publication-status) records the selected-tree and history checks for this round.

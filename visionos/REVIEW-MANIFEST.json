@@ -163,7 +163,7 @@
     },
     "README.md": {
       "kind": "review-adapted",
-      "sha256": "5730f27d53ea1740a74c3c423432cd40a49965e4c9eb62f988e780ec7441017c",
+      "sha256": "d5e573f3f507fe69c5d1343d683b205433973c12f86fee52a7a4f70231e33e13",
       "source_sha256": "e0dc94caeb8caa3bfc1f7701d24dfaef6371a62c08dd29a52196baa25641583f",
       "source_path": "visionos/README.md"
     },

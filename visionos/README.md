@@ -34,3 +34,7 @@ The app compiles using the included JSON metadata, localization catalogs and a s
 The original five studio models, Open Brush brush icons/atlases and any desired textures can be supplied separately after their redistribution terms are confirmed. A developer can also provide newly authored geometry and generated icons under independently documented terms. Update `scripts/generate-project.py` with the approved resources and regenerate the project. Keep the additions outside this review snapshot until clearance. The shared text descriptors and procedural geometry let reviewers evaluate the algorithms before making that choice.
 
 To reproduce the checked-in project, run `python3 visionos/scripts/generate-project.py`. The [file manifest](REVIEW-MANIFEST.json) and its verifier record the selected files, origins and hashes. [Notices](NOTICE) and the [asset inventory](../docs/ASSETS.md) explain licensing scope.
+
+## Dual-platform review navigation
+
+The [developer guide](../docs/REVIEW-GUIDE.md) links the Kotlin and Swift algorithm/test entries. Shared semantics are documented in the [workspace format](../docs/WORKSPACE-FORMAT.md) and [compatibility matrix](../docs/COMPATIBILITY.md). The [M06 report](../docs/STRUCTURE-REVIEW.md#validation-and-publication-status) keeps this round's checks separate from the M05 results above.

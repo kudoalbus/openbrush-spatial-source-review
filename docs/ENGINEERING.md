@@ -29,3 +29,7 @@ The production algorithms follow the reviewed Kotlin sources. The surface genera
 ## visionOS M05 companion
 
 The native Apple implementation and independent Swift suite are now included under [visionos/](../visionos/README.md). The [visionOS handoff](VISIONOS.md) covers the selected runtime source, interval editing, swept contact, v3 interchange, brush geometry, hand-menu pose and Unity porting boundaries. Its checks use the text-only review resources and synthetic test input. PICO source, test classes and the desktop Gradle selection retain the baseline content.
+
+## Shared review entry
+
+Use the [developer guide](REVIEW-GUIDE.md) to compare platform source and tests. The [workspace contract](WORKSPACE-FORMAT.md) describes the existing interchange schema. [Compatibility](COMPATIBILITY.md) and the [M06 report](STRUCTURE-REVIEW.md) distinguish the platform build scopes and this round's actual checks.

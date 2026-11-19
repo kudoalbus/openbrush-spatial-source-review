@@ -28,21 +28,9 @@ The [palette](../visionos/App/SpatialPalette.swift) and [brush book](../visionos
 
 ## v3 interchange with PICO
 
-The Swift codec and the existing [PICO codec](../pico/app/src/main/java/com/openbrush/picoviewer/data/DrawingDocumentCodec.kt) use the following rules.
+The canonical [workspace contract](WORKSPACE-FORMAT.md) describes both reviewed codecs, limits, interval preservation and the synthetic edit example. The [compatibility matrix](COMPATIBILITY.md) records renderer and import differences. Both current codecs preserve stored erasure arrays; visible-span normalization belongs to derived rendering data.
 
-| Element | Shared meaning |
-| --- | --- |
-| Root | `version` is 1, 2 or 3 on read. Swift writes 3. `units` is `meters_rh`. Stroke array order is meaningful. |
-| Stroke | Keep `id`, `brush`, `width`, RGBA base `color`, original `points`, `erased` and v3 `recolored`. IDs are nonempty and unique. Brush GUIDs retain their identity through serialization. |
-| Control point | V1 has `[x,y,z,pressure,timeMs]` with an implicit `(0,0,1)` normal. V2/v3 has `[x,y,z,pressure,timeMs,nx,ny,nz]`. Time is a nonnegative signed 64-bit integer. Coordinates are document-local, right-handed meters. Normals are finite and nonzero. |
-| Erase | `[start,end]` measures cumulative distance along the original stroke. Display derives visible spans without resampling or splitting the stored stroke. Swift preserves imported interval arrays. PICO can merge equivalent erasures, so compare visibility when normalizing redundant input. |
-| Recolor | `[start,end,r,g,b,a]` is sorted and nonoverlapping. Alpha equals original base alpha. Recolor acts only on visible intersections. Hidden historical color may remain stored under erasure and stays invisible. |
-| Placement | Runtime centering, scale and room/session transforms belong to entities. They do not rewrite saved points or intervals. Persistent room anchoring is outside the JSON schema. |
-| Validation | Width is 0.001–0.15 m. Editable documents allow up to 2,000 strokes, 4,096 points per stroke, 200,000 total points and 20,000 erase/color intervals of each kind per stroke. Swift has no extra byte-size cap. The existing PICO reader has its own input-length bound. |
-
-The included [synthetic fixture](../visionos/ReviewResources/workspace-v3.json) has a blue base stroke from 0 to 0.32 m, red at 0.08–0.12 m, a gap at 0.12–0.16 m and green at 0.16–0.20 m. Recoloring 0.10–0.18 m orange changes only 0.10–0.12 and 0.16–0.18 m. Its ID, points, brush, width, base color and erasure stay unchanged. [Tests](../visionos/Tests/DrawingCoreTests/DrawingCoreTests.swift) exercise the gap, no-op history, alpha, precision and save/reopen. [The simulator verifier](../visionos/scripts/verify-interop.py) checks the app-saved result independently.
-
-For a new cross-device exchange, the Mac developer exports a synthetic or user-owned v3 file, the Windows developer reads and exports it through PICO, and the Mac developer compares the returned file with `python3 visionos/scripts/compare-v3.py original.json returned.json`. The comparator checks schema, order, identities and exact integer timestamps, with a 1e-6 tolerance for float values. A fresh device-to-device exchange of this review snapshot remains pending.
+The [Swift core tests](../visionos/Tests/DrawingCoreTests/DrawingCoreTests.swift) exercise v1/v2 upgrades, v3 round trips, stable source points and identity, large integer timestamps, alpha and gap preservation. The [simulator verifier](../visionos/scripts/verify-interop.py) independently checks the app-saved edit fixture. A fresh device-to-device exchange still needs a run record from both platforms.
 
 ## Review resources and limitations
 

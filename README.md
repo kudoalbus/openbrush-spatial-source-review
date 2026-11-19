@@ -1,38 +1,42 @@
 # OpenBrush Spatial source review
 
-OpenBrush Spatial explores editing part of a spatial brush stroke while preserving the original stroke, its brush identity and whole-gesture history. This independent project draws on Open Brush and the original Tilt Brush work. The PICO implementation uses Kotlin and the PICO Spatial SDK. This source edition lets Open Brush maintainers run the portable algorithms on a desktop JVM and inspect their integration with the headset.
+OpenBrush Spatial explores local editing and native interaction for spatial drawings on PICO and Apple Vision Pro. Open Brush maintainers can inspect the algorithms, run each platform's portable tests and evaluate integration work. The project draws on Open Brush, Tilt Brush and the Open Brush Toolkit, with thanks to their authors and contributors.
 
-## Start with one stroke
+## Choose a platform
 
-1. [PartialStrokeEraser](pico/app/src/main/java/com/openbrush/picoviewer/domain/drawing/PartialStrokeEraser.kt) intersects the swept fingertip with each stroke segment and expresses contact as distances along the original stroke. It handles contact between sparse samples.
-2. [StrokeAppearance](pico/app/src/main/java/com/openbrush/picoviewer/domain/drawing/StrokeAppearance.kt) applies color to visible spans. Erased sections stay invisible and recoloring preserves original alpha.
-3. [DrawingSession](pico/app/src/main/java/com/openbrush/picoviewer/domain/drawing/DrawingSession.kt) commits the whole gesture to history, including gestures across multiple strokes. [LocalRecolorTest](pico/app/src/test/java/com/openbrush/picoviewer/LocalRecolorTest.kt) exercises editing, erasure precedence, persistence and undo.
-4. [HandPoseDecoder](pico/app/src/main/java/com/openbrush/picoviewer/domain/drawing/HandPoseDecoder.kt) converts joint samples into drawing and editing inputs. The [hand replay tests](pico/app/src/test/java/com/openbrush/picoviewer/HandPaintingFlowTest.kt) are a starting point for a Unity XR input adapter.
+| Platform | Start here | Build and validation scope |
+| --- | --- | --- |
+| PICO | [Kotlin engineering handoff](docs/ENGINEERING.md), [production source](pico/app/src/main/java/com/openbrush/picoviewer), [tests](pico/app/src/test/java/com/openbrush/picoviewer) | JDK 17 and Gradle 8.13 run the explicitly selected JVM sources. Windows recorded 119 tests in 19 classes. Android/PICO integration is available for inspection. The review build produces JVM test results. |
+| visionOS | [Build instructions](visionos/README.md), [Swift technical handoff](docs/VISIONOS.md), [core algorithms](visionos/Sources/DrawingCore), [tests](visionos/Tests/DrawingCoreTests) | macOS and Xcode 27.0 run Swift tests and build the native app with the visionOS SDK. See [current-round evidence](docs/STRUCTURE-REVIEW.md#validation-and-publication-status) separately from M05 results. |
 
-## Run the review suite
+For a short review of the highest-value algorithms, read the [developer review guide](docs/REVIEW-GUIDE.md). It links both implementations of partial erase, local recolor, gesture history and input replay, as well as PICO GLB texture handling and native Apple integration.
 
-Use JDK 17 and Gradle 8.13. From this directory, run:
+## Run the selected suite
+
+Run commands from the repository root. Install the toolchain for the platform being evaluated.
 
 ```sh
+# PICO portable JVM selection: JDK 17 and Gradle 8.13.
 gradle clean test
+
+# visionOS portable core: macOS and Xcode 27.0.
+swift test --package-path visionos --scratch-path visionos/.scratch/swift-build
 ```
 
-For the editing and hand-replay examples alone:
+PICO's desktop build resolves Kotlin 2.1.20, JSON-java and JUnit through the Gradle plugin portal and Maven Central. Results go to `build/reports/tests/test/index.html`. The Swift package uses Apple's Foundation, simd and Compression frameworks. Native Apple build and simulator commands are in the [visionOS README](visionos/README.md#build-and-test). PICO's desktop source selection is in [build.gradle](build.gradle). The two build definitions select their own platform's files and introduce no shared runtime dependency.
 
-```sh
-gradle test --tests '*LocalRecolorTest' --tests '*HandPaintingFlowTest'
-```
+## Branches and shared documentation
 
-The first build resolves Kotlin 2.1.20, JSON-java and JUnit from the Gradle plugin portal and Maven Central. Results are written to `build/reports/tests/test/index.html`. No private fixture directory, PICO SDK, Android SDK or headset is required for the JVM suite. The source selection, platform dependencies and hardware evidence are described in [the engineering handoff](docs/ENGINEERING.md).
+| Reference | Contents |
+| --- | --- |
+| [`main` at `1685da5`](https://github.com/kudoalbus/openbrush-spatial-source-review/tree/1685da52912fd980d269b3d25eaeb7831ef2f193) | The PICO source-review baseline. |
+| [`review/visionos-source` at `b053c06`](https://github.com/kudoalbus/openbrush-spatial-source-review/tree/b053c06aa94a422b25862e6768407c53ca1a6eff) | Both platform directories and the M05 visionOS addition. PICO source and JVM build retain the main baseline. |
+| [`review/m06-developer-guide`](https://github.com/kudoalbus/openbrush-spatial-source-review/tree/review/m06-developer-guide) | The M06 documentation candidate, with the same platform source and independent build entries. |
 
-## visionOS native source review
+The [workspace format](docs/WORKSPACE-FORMAT.md) describes the existing v1–v3 exchange contract. [Compatibility and evidence](docs/COMPATIBILITY.md) records platform differences and verification limits. The [structure review](docs/STRUCTURE-REVIEW.md) compares organization options and explains why no source relocation is needed. Changes to the default branch or visibility remain the owner's decision.
 
-The [visionOS directory](visionos/README.md) adds a SwiftUI, RealityKit and ARKit snapshot. The native drawing algorithms, v1–v3 codec, brush geometry and palm-menu math can be reviewed through the [English visionOS handoff](docs/VISIONOS.md). It identifies the transferable interval and contact algorithms and the Apple-specific integration. This snapshot excludes external artwork and uses generated TILT paths for its tests.
+## Source, attribution and resources
 
-On macOS with Xcode 27.0, run `swift test --package-path visionos --scratch-path visionos/.scratch/swift-build`. The review snapshot passed 39 Swift tests and an unsigned visionOS arm64 Release build. The [visionOS README](visionos/README.md) includes the full build, simulator and resource-dependency instructions. Windows' existing 119-test JVM result remains documented in the PICO engineering handoff. See the [M05 ledger](docs/PROGRESS.md) for this review's evidence and limits.
+Project-authored source and review documentation are offered under [Apache License 2.0](LICENSE). Keep the [root notice](NOTICE), platform notices and relevant upstream credits when redistributing portions. The [asset inventory](docs/ASSETS.md) describes the license boundary and withheld content. Brush metadata may name images that are outside this text-only review snapshot.
 
-## Source and attribution
-
-The upstream Open Brush 2.32.0 catalog supplies the original brush GUIDs, menu order and behavior references. The Toolkit supplies TILT parser references and brush texture metadata. We thank the Open Brush community, the Icosa Foundation and the Tilt Brush authors. The included catalog records can refer to images that are deliberately outside this source edition. [Open Brush](https://github.com/icosa-foundation/open-brush) · [Open Brush Toolkit](https://github.com/icosa-foundation/open-brush-toolkit)
-
-Project-authored source code is offered under [Apache License 2.0](LICENSE). Retain applicable upstream copyright, modification and attribution notices when redistributing. The asset inventory documents the separately managed artwork and withheld content. [Notices](pico/NOTICE) · [Asset and license inventory](docs/ASSETS.md)
+The reference catalog is pinned to Open Brush 2.32.0. The upstream implementations informed brush identifiers, geometry, input and format handling. Reviewers should evaluate the portable ideas and account for Unity input, renderer, history and material integration. [Open Brush](https://github.com/icosa-foundation/open-brush), [Open Brush Toolkit](https://github.com/icosa-foundation/open-brush-toolkit)
